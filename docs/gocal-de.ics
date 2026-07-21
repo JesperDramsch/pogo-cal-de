@@ -29,24 +29,6 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[GBL] Meisterliga und Retro-Cup (Superliga) | Forever Forward
-DTSTART;VALUE=DATE:20260714
-DTEND;VALUE=DATE:20260721
-DTSTAMP:20260721T031551Z
-UID:gbl-forever-forward_master-league_retro-cup-great-league-edition
-DESCRIPTION:Beginnt um 20:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
- nts/gbl-forever-forward_master-league_retro-cup-great-league-edition/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/gobattleleague-
- master-key.jpg
-URL:https://leekduck.com/events/gbl-forever-forward_master-league_retro-cu
- p-great-league-edition/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[GBL] Meisterliga und Retro-Cup (Superliga) | Forever Forward
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[E] Happy Birthday\, Professor Willow!
 DTSTART:20260721T100000
 DTEND:20260721T200000
@@ -61,39 +43,6 @@ URL:https://leekduck.com/events/happy-birthday-professor-willow-2026/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[E] Happy Birthday\, Professor Willow!
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[RB] Kyogre in 5-Sterne-Raids
-DTSTART;VALUE=DATE:20260715
-DTEND;VALUE=DATE:20260721
-DTSTAMP:20260721T031551Z
-UID:kyogre-in-5-star-raid-battles-july-2026
-DESCRIPTION:Beginnt um 06:00\, endet um 22:00.\n\nhttps://leekduck.com/eve
- nts/kyogre-in-5-star-raid-battles-july-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/kyogre.jpg
-URL:https://leekduck.com/events/kyogre-in-5-star-raid-battles-july-2026/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RB] Kyogre in 5-Sterne-Raids
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[RB] Mega-Gewaldro in Mega-Raids
-DTSTART;VALUE=DATE:20260715
-DTEND;VALUE=DATE:20260721
-DTSTAMP:20260721T031551Z
-UID:mega-sceptile-in-mega-raids-july-2026
-DESCRIPTION:Beginnt um 06:00\, endet um 22:00.\n\nhttps://leekduck.com/eve
- nts/mega-sceptile-in-mega-raids-july-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/mega-default.jp
- g
-URL:https://leekduck.com/events/mega-sceptile-in-mega-raids-july-2026/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RB] Mega-Gewaldro in Mega-Raids
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -185,58 +134,6 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[GBL] Superliga\, Hyperliga\, und Meisterliga | Forever Forward
-DTSTART;VALUE=DATE:20260721
-DTEND;VALUE=DATE:20260728
-DTSTAMP:20260721T031551Z
-UID:gbl-forever-forward_great-league_ultra-league_master-league-split-2
-DESCRIPTION:Beginnt um 20:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
- nts/gbl-forever-forward_great-league_ultra-league_master-league-split-2/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/go-battle-leagu
- e-season-27-forever-forward.jpg
-URL:https://leekduck.com/events/gbl-forever-forward_great-league_ultra-lea
- gue_master-league-split-2/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[GBL] Superliga\, Hyperliga\, und Meisterliga | Forever Forwar
- d
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[RB] Mega-Brutalanda in Mega-Raids
-DTSTART;VALUE=DATE:20260722
-DTEND;VALUE=DATE:20260728
-DTSTAMP:20260721T031551Z
-UID:mega-salamence-in-mega-raids-july-2026
-DESCRIPTION:Beginnt um 06:00\, endet um 22:00.\n\nhttps://leekduck.com/eve
- nts/mega-salamence-in-mega-raids-july-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/mega-default.jp
- g
-URL:https://leekduck.com/events/mega-salamence-in-mega-raids-july-2026/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RB] Mega-Brutalanda in Mega-Raids
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[RB] Solgaleo in 5-Sterne-Raids
-DTSTART;VALUE=DATE:20260722
-DTEND;VALUE=DATE:20260728
-DTSTAMP:20260721T031551Z
-UID:solgaleo-in-5-star-raid-battles-july-2026
-DESCRIPTION:Beginnt um 06:00\, endet um 22:00.\n\nhttps://leekduck.com/eve
- nts/solgaleo-in-5-star-raid-battles-july-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/solgaleo.jpg?v2
-URL:https://leekduck.com/events/solgaleo-in-5-star-raid-battles-july-2026/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RB] Solgaleo in 5-Sterne-Raids
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[RH] Raid-Stunde: Kyurem
 DTSTART:20260729T180000
 DTEND:20260729T190000
@@ -322,74 +219,6 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[GBL] Superliga und Master Premier | Forever Forward
-DTSTART;VALUE=DATE:20260728
-DTEND;VALUE=DATE:20260804
-DTSTAMP:20260721T031551Z
-UID:gbl-forever-forward_great-league_master-premier
-DESCRIPTION:Beginnt um 20:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
- nts/gbl-forever-forward_great-league_master-premier/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/gobattle-greatl
- eague-key.jpg
-URL:https://leekduck.com/events/gbl-forever-forward_great-league_master-pr
- emier/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[GBL] Superliga und Master Premier | Forever Forward
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[RB] Crypto-Palkia in Crypto-Raids
-DTSTART;VALUE=DATE:20260701
-DTEND;VALUE=DATE:20260804
-DTSTAMP:20260721T031551Z
-UID:shadow-palkia-in-shadow-raids-july-2026
-DESCRIPTION:Beginnt um 06:00\, endet um 22:00.\n\nhttps://leekduck.com/eve
- nts/shadow-palkia-in-shadow-raids-july-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-
- img.jpg
-URL:https://leekduck.com/events/shadow-palkia-in-shadow-raids-july-2026/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RB] Crypto-Palkia in Crypto-Raids
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[RB] Kyurem in 5-Sterne-Raids
-DTSTART;VALUE=DATE:20260729
-DTEND;VALUE=DATE:20260804
-DTSTAMP:20260721T031551Z
-UID:kyurem-in-5-star-raid-battles-july-2026
-DESCRIPTION:Beginnt um 06:00\, endet um 22:00.\n\nhttps://leekduck.com/eve
- nts/kyurem-in-5-star-raid-battles-july-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/kyurem.jpg
-URL:https://leekduck.com/events/kyurem-in-5-star-raid-battles-july-2026/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RB] Kyurem in 5-Sterne-Raids
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[RB] Mega-Stolloss in Mega-Raids
-DTSTART;VALUE=DATE:20260729
-DTEND;VALUE=DATE:20260804
-DTSTAMP:20260721T031551Z
-UID:mega-aggron-in-mega-raids-july-2026
-DESCRIPTION:Beginnt um 06:00\, endet um 22:00.\n\nhttps://leekduck.com/eve
- nts/mega-aggron-in-mega-raids-july-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/mega-default.jp
- g
-URL:https://leekduck.com/events/mega-aggron-in-mega-raids-july-2026/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RB] Mega-Stolloss in Mega-Raids
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[E] Schlüpf-Tag: Fire and Ice
 DTSTART:20260808T110000
 DTEND:20260808T170000
@@ -421,24 +250,6 @@ URL:https://leekduck.com/events/summer-marathon-2026/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[E] Summer Marathon: Arctic Embers
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[GBL] Hyperliga und Weather-Cup (Superliga) | Forever Forward
-DTSTART;VALUE=DATE:20260804
-DTEND;VALUE=DATE:20260811
-DTSTAMP:20260721T031551Z
-UID:gbl-forever-forward_ultra-league_weather-cup-great-league-edition
-DESCRIPTION:Beginnt um 20:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
- nts/gbl-forever-forward_ultra-league_weather-cup-great-league-edition/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/go-battle-leagu
- e-ultra-league-machamp-swampert.jpg
-URL:https://leekduck.com/events/gbl-forever-forward_ultra-league_weather-c
- up-great-league-edition/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[GBL] Hyperliga und Weather-Cup (Superliga) | Forever Forward
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -477,25 +288,6 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[GBL] Meisterliga und Evolution-Cup (Superliga) | Forever Forward
-DTSTART;VALUE=DATE:20260811
-DTEND;VALUE=DATE:20260818
-DTSTAMP:20260721T031551Z
-UID:gbl-forever-forward_master-league_evolution-cup-great-league-edition
-DESCRIPTION:Beginnt um 20:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
- nts/gbl-forever-forward_master-league_evolution-cup-great-league-edition/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/gobattleleague-
- master-key.jpg
-URL:https://leekduck.com/events/gbl-forever-forward_master-league_evolutio
- n-cup-great-league-edition/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[GBL] Meisterliga und Evolution-Cup (Superliga) | Forever Forw
- ard
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[RD] Raid-Tag: Starmie Super Mega
 DTSTART:20260822T110000
 DTEND:20260822T170000
@@ -527,82 +319,6 @@ URL:https://leekduck.com/events/water-festival-2026/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[E] Ultrabonus: Water Festival
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[GBL] Superliga und Scroll-Cup (Superliga) | Forever Forward
-DTSTART;VALUE=DATE:20260818
-DTEND;VALUE=DATE:20260825
-DTSTAMP:20260721T031551Z
-UID:gbl-forever-forward_great-league_scroll-cup-great-league-edition
-DESCRIPTION:Beginnt um 20:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
- nts/gbl-forever-forward_great-league_scroll-cup-great-league-edition/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/gobattle-greatl
- eague-key.jpg
-URL:https://leekduck.com/events/gbl-forever-forward_great-league_scroll-cu
- p-great-league-edition/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[GBL] Superliga und Scroll-Cup (Superliga) | Forever Forward
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[GBL] Superliga\, Hyperliga\, und Meisterliga | Forever Forward
-DTSTART;VALUE=DATE:20260825
-DTEND;VALUE=DATE:20260901
-DTSTAMP:20260721T031551Z
-UID:gbl-forever-forward_great-league_ultra-league_master-league-split-3
-DESCRIPTION:Beginnt um 20:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
- nts/gbl-forever-forward_great-league_ultra-league_master-league-split-3/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/go-battle-leagu
- e-season-27-forever-forward.jpg
-URL:https://leekduck.com/events/gbl-forever-forward_great-league_ultra-lea
- gue_master-league-split-3/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[GBL] Superliga\, Hyperliga\, und Meisterliga | Forever Forwar
- d
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[S] Forever Forward
-DTSTART;VALUE=DATE:20260602
-DTEND;VALUE=DATE:20260908
-DTSTAMP:20260721T031551Z
-UID:season-23-forever-forward
-DESCRIPTION:Beginnt um 10:00\, endet um 10:00.\n\nhttps://leekduck.com/eve
- nts/season-23-forever-forward/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/
- 2026/2026-06-02-season-23-forever-forward/season-23-forever-forward.jpg
-URL:https://leekduck.com/events/season-23-forever-forward/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[S] Forever Forward
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[GBL] Superliga\, Hyperliga\, und Meisterliga: Mega Edition | Fore
- ver Forward
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20260908
-DTSTAMP:20260721T031551Z
-UID:gbl-forever-forward_great-league_ultra-league_master-league-mega-editi
- on
-DESCRIPTION:Beginnt um 20:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
- nts/gbl-forever-forward_great-league_ultra-league_master-league-mega-editi
- on/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/go-battle-leagu
- e-season-27-forever-forward.jpg
-URL:https://leekduck.com/events/gbl-forever-forward_great-league_ultra-lea
- gue_master-league-mega-edition/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[GBL] Superliga\, Hyperliga\, und Meisterliga: Mega Edition | 
- Forever Forward
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
