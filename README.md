@@ -18,10 +18,10 @@ Blocklist.
 
 | Feed | URL | Inhalt |
 | --- | --- | --- |
-| `jesper` | `webcal://<user>.github.io/pogo-cal-de/gocal-de.ics` | Kuratiert (ohne Max Monday, GBL, Season, Raids …) |
+| `jesper` | `webcal://<user>.github.io/pogo-cal-de/gocal-de-jesper.ics` | Kuratiert (ohne Max Monday, GBL, Season, Raids …) |
 | `all` | `webcal://<user>.github.io/pogo-cal-de/gocal-de-all.ics` | Alle Events, nur übersetzt — nichts gefiltert |
 
-Weitere Feeds landen unter `gocal-de-<key>.ics`. Funktioniert in Proton
+Jeder Feed landet unter `gocal-de-<key>.ics`. Funktioniert in Proton
 Calendar, Google Calendar, Apple Calendar etc. — öffentliche URL, kein
 Auth-Header im Weg.
 
@@ -48,7 +48,7 @@ Rampenlichtstunde bleibt 18:00, egal wo dein Kalender-Client steht.
   `feeds.yaml` eintragen (`MM`, `GBL`, …)
 - **Eigenen Feed hinzufügen:** Block in `feeds.yaml` kopieren, eindeutigen
   Key wählen, Blocklist anpassen, PR aufmachen — die Datei landet unter
-  `docs/gocal-de-<key>.ics` (überschreibbar via `file:`)
+  `docs/gocal-de-<key>.ics`
 - **Übersetzung ergänzen/fixen:** Pattern in `phrases_de.json` — geordnete
   `[Regex, Ersetzung]`-Paare, von oben nach unten angewendet, *nach* der
   Spezies-Übersetzung

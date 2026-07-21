@@ -47,19 +47,15 @@ def load_feeds() -> list[dict]:
     entries = (raw or {}).get("feeds") or {}
     if not entries:
         raise SystemExit("feeds.yaml: no feeds defined")
-    feeds, files = [], set()
+    feeds = []
     for key, cfg in entries.items():
         cfg = cfg or {}
-        fname = cfg.get("file", f"gocal-de-{key}.ics")
-        if fname in files:
-            raise SystemExit(f"feeds.yaml: duplicate output file {fname!r}")
-        files.add(fname)
         feeds.append(
             {
                 "key": key,
                 "name": cfg.get("name", f"GO Kalender (DE) – {key}"),
                 "description": str(cfg.get("description", "")).strip(),
-                "file": fname,
+                "file": f"gocal-de-{key}.ics",
                 "blocklist": {
                     str(tag).upper().strip("[]")
                     for tag in cfg.get("blocklist") or []

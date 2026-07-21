@@ -15,7 +15,7 @@
 #
 # Eigenen Feed hinzufügen: Block kopieren, eindeutigen Key wählen,
 # Blocklist anpassen, PR aufmachen. Die Datei landet unter
-# docs/gocal-de-<key>.ics, außer `file:` sagt etwas anderes.
+# docs/gocal-de-<key>.ics.
 
 feeds:
   all:
@@ -27,8 +27,6 @@ feeds:
 
   jesper:
     name: GO Kalender (DE)
-    # Historische URL — nicht ändern, bestehende Abos zeigen darauf!
-    file: gocal-de.ics
     description: >-
       Pokémon GO Events auf Deutsch, in lokaler Zeit. Gefiltert und
       übersetzt aus othyn/go-calendar (Daten: Leek Duck).
