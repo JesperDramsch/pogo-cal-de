@@ -1,0 +1,33 @@
+# Feed-Definitionen für den deutschen Pokémon-GO-Kalender.
+#
+# Jeder Eintrag unter `feeds:` wird ein eigenes .ics in docs/ — übersetzt
+# und mit eigener Blocklist gefiltert. Alles, was NICHT auf der Blocklist
+# steht, erscheint standardmäßig — auch brandneue Kategorien, die Upstream
+# erfindet. Das ist der Punkt.
+#
+# Bekannte Tags (Juli 2026):
+#   E    Event                  RB   Raid Battles (Bosse)
+#   MM   Max Monday             RH   Raid Hour
+#   MB   Max Battle Day         PSH  Spotlight Hour
+#   GBL  GO Battle League       CYP  Choose Your Path
+#   GP   GO Pass                PGF  GO Fest
+#   CD   Community Day          S    Season
+#
+# Eigenen Feed hinzufügen: Block kopieren, eindeutigen Key wählen,
+# Blocklist anpassen, PR aufmachen. Die Datei landet unter
+# docs/gocal-de-<key>.ics.
+
+feeds:
+  all:
+    name: GO Kalender (DE) – Alles
+    description: >-
+      Alle Pokémon GO Events auf Deutsch, ungefiltert, in lokaler Zeit.
+      Übersetzt aus othyn/go-calendar (Daten: Leek Duck).
+    blocklist: []
+
+  jesper:
+    name: GO Kalender (DE)
+    description: >-
+      Pokémon GO Events auf Deutsch, in lokaler Zeit. Gefiltert und
+      übersetzt aus othyn/go-calendar (Daten: Leek Duck).
+    blocklist: [MM, GBL, S, RB]

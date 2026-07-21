@@ -8,7 +8,7 @@ on:
     paths:
     - "translate.py"
     - "phrases_de.json"
-    - "blocklist.txt"
+    - "feeds.yaml"
     - ".github/workflows/build.yml"
 
 permissions:
@@ -24,16 +24,16 @@ jobs:
       with:
         python-version: "3.12"
 
-    - run: pip install icalendar
+    - run: pip install icalendar pyyaml
 
-    - name: Generate German calendar
+    - name: Generate German calendars
       run: python translate.py
 
     - name: Commit if changed
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
-        git add docs/gocal-de.ics
+        git add docs/*.ics
         if git diff --cached --quiet; then
           echo "No changes."
         else
