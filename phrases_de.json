@@ -1,0 +1,173 @@
+{
+  "_comment": "Ordered [regex, replacement] pairs, applied top to bottom BEFORE species-name translation. Python re syntax; \\1 etc. for groups. Curated against Niantic's German event vocabulary — PRs welcome.",
+  "patterns": [
+    [
+      "in Mega Raids$",
+      "in Mega-Raids"
+    ],
+    [
+      "^\\[(\\w+)\\] (.+) Spotlight Hour$",
+      "[\\1] Rampenlichtstunde: \\2"
+    ],
+    [
+      "^\\[(\\w+)\\] (.+) Raid Hour$",
+      "[\\1] Raid-Stunde: \\2"
+    ],
+    [
+      "^\\[(\\w+)\\] Dynamax (.+) during Max Monday$",
+      "[\\1] Max-Montag: Dynamax-\\2"
+    ],
+    [
+      "^\\[(\\w+)\\] Gigantamax (.+) Max Battle Day$",
+      "[\\1] Max-Kampf-Tag: Gigadynamax-\\2"
+    ],
+    [
+      "^\\[(\\w+)\\] (.+) Max Battle Day$",
+      "[\\1] Max-Kampf-Tag: \\2"
+    ],
+    [
+      "^\\[(\\w+)\\] (.+) in 5-star Raid Battles$",
+      "[\\1] \\2 in 5-Sterne-Raids"
+    ],
+    [
+      "^\\[(\\w+)\\] Shadow (.+) in Shadow Raids$",
+      "[\\1] Crypto-\\2 in Crypto-Raids"
+    ],
+    [
+      "^\\[(\\w+)\\] (.+) in \\d-star Raid Battles$",
+      "[\\1] \\2 in Raids"
+    ],
+    [
+      "^\\[(\\w+)\\] (.+) Raid Day$",
+      "[\\1] Raid-Tag: \\2"
+    ],
+    [
+      "^\\[(\\w+)\\] (.+) Community Day Classic$",
+      "[\\1] Community Day Classic: \\2"
+    ],
+    [
+      "^\\[(\\w+)\\] (.+) Community Day$",
+      "[\\1] Community Day: \\2"
+    ],
+    [
+      "^\\[(\\w+)\\] (.+) Hatch Day$",
+      "[\\1] Schlüpf-Tag: \\2"
+    ],
+    [
+      "Great League",
+      "Superliga"
+    ],
+    [
+      "Ultra League",
+      "Hyperliga"
+    ],
+    [
+      "Master League",
+      "Meisterliga"
+    ],
+    [
+      "(\\w+) Cup: Superliga Edition",
+      "\\1-Cup (Superliga)"
+    ],
+    [
+      "(\\w+) Cup: Hyperliga Edition",
+      "\\1-Cup (Hyperliga)"
+    ],
+    [
+      "(\\w+) Cup: Meisterliga Edition",
+      "\\1-Cup (Meisterliga)"
+    ],
+    [
+      "^(\\[GBL\\].+), and ",
+      "\\1, und "
+    ],
+    [
+      "^(\\[GBL\\].+) and ",
+      "\\1 und "
+    ],
+    [
+      "GO Battle League",
+      "GO-Kampfliga"
+    ],
+    [
+      "GO Battle Day",
+      "GO-Kampftag"
+    ],
+    [
+      "Choose Your Path",
+      "Wähle deinen Weg"
+    ],
+    [
+      "GO Pass:",
+      "GO-Pass:"
+    ],
+    [
+      "Season of ",
+      "Saison: "
+    ],
+    [
+      "Ultra Unlock",
+      "Ultrabonus"
+    ],
+    [
+      "Raid Weekend",
+      "Raid-Wochenende"
+    ],
+    [
+      "Research Day",
+      "Forschungstag"
+    ],
+    [
+      "Incense Day",
+      "Rauch-Tag"
+    ],
+    [
+      "Wild Area",
+      "Naturzone"
+    ],
+    [
+      "City Safari",
+      "City Safari"
+    ],
+    [
+      "Starts at (\\d\\d:\\d\\d), ends at (\\d\\d:\\d\\d)\\.",
+      "Beginnt um \\1, endet um \\2."
+    ],
+    [
+      "Starts at (\\d\\d:\\d\\d)\\.",
+      "Beginnt um \\1."
+    ],
+    [
+      "\\bJanuary\\b",
+      "Januar"
+    ],
+    [
+      "\\bFebruary\\b",
+      "Februar"
+    ],
+    [
+      "\\bMarch\\b",
+      "März"
+    ],
+    [
+      "\\bMay\\b",
+      "Mai"
+    ],
+    [
+      "\\bJune\\b",
+      "Juni"
+    ],
+    [
+      "\\bJuly\\b",
+      "Juli"
+    ],
+    [
+      "\\bOctober\\b",
+      "Oktober"
+    ],
+    [
+      "\\bDecember\\b",
+      "Dezember"
+    ]
+  ]
+}

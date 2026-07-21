@@ -1,0 +1,17 @@
+# Event categories to EXCLUDE from the calendar, one tag per line.
+# Anything NOT listed here shows up by default — including brand-new
+# categories upstream invents. That's the point.
+#
+# Known tags (July 2026):
+#   E    Event                  RB   Raid Battles (bosses)
+#   MM   Max Monday             RH   Raid Hour
+#   MB   Max Battle Day         PSH  Spotlight Hour
+#   GBL  GO Battle League       CYP  Choose Your Path
+#   GP   GO Pass                PGF  GO Fest
+#   CD   Community Day          S    Season
+
+MM
+GBL
+S
+RP
+RB
