@@ -10,26 +10,33 @@ auf, die man nicht abonniert hat — man verpasst sie lautlos. Dieses Repo dreht
 das um: **Blocklist statt Allowlist.** Alles Neue erscheint standardmäßig;
 Uninteressantes fliegt explizit raus.
 
+Seit dem Umstieg auf `feeds.yaml` gibt es dabei nicht nur *einen* Kalender:
+jeder Eintrag in `feeds.yaml` ist ein eigener übersetzter Feed mit eigener
+Blocklist.
+
 ## Abonnieren
 
-```
-webcal://<user>.github.io/pogo-cal-de/gocal-de.ics
-```
+| Feed | URL | Inhalt |
+| --- | --- | --- |
+| `jesper` | `webcal://<user>.github.io/pogo-cal-de/gocal-de.ics` | Kuratiert (ohne Max Monday, GBL, Season, Raids …) |
+| `all` | `webcal://<user>.github.io/pogo-cal-de/gocal-de-all.ics` | Alle Events, nur übersetzt — nichts gefiltert |
 
-Funktioniert in Proton Calendar, Google Calendar, Apple Calendar etc. —
-öffentliche URL, kein Auth-Header im Weg.
+Weitere Feeds landen unter `gocal-de-<key>.ics`. Funktioniert in Proton
+Calendar, Google Calendar, Apple Calendar etc. — öffentliche URL, kein
+Auth-Header im Weg.
 
 ## Wie es funktioniert
 
 1. GitHub Action (alle 6 h) lädt das released `gocal.ics` vom Upstream
-2. `translate.py` entfernt VEVENTs, deren Tag in `blocklist.txt` steht
+2. `translate.py` übersetzt einmal alles und schreibt dann pro Feed aus
+   `feeds.yaml` ein eigenes `.ics`, gefiltert nach dessen Blocklist
 3. Titel/Beschreibungen werden übersetzt:
    - **Spezies-Namen** (inkl. Mega-Formen) aus
      [pogo-filter-workshop](https://github.com/JesperDramsch/pogo-filter-workshop)
      `src/locales/pokemon-names.json` (live geladen, Snapshot als Fallback)
    - **Event-Vokabular** aus `phrases_de.json` (handkuratiert:
      Rampenlichtstunde, Raid-Stunde, Max-Montag, Superliga …)
-4. Ergebnis landet in `docs/gocal-de.ics`, GitHub Pages serviert es
+4. Ergebnisse landen in `docs/`, GitHub Pages serviert sie
 
 **Datums-/Zeitfelder werden nie angefasst.** Die Upstream-Floating-Local-Times
 (bewusst ohne Timezone, siehe deren README) laufen byte-identisch durch —
@@ -37,7 +44,11 @@ Rampenlichtstunde bleibt 18:00, egal wo dein Kalender-Client steht.
 
 ## Anpassen
 
-- **Kategorie ausblenden:** Tag in `blocklist.txt` eintragen (`MM`, `GBL`, …)
+- **Kategorie ausblenden:** Tag in die `blocklist` des eigenen Feeds in
+  `feeds.yaml` eintragen (`MM`, `GBL`, …)
+- **Eigenen Feed hinzufügen:** Block in `feeds.yaml` kopieren, eindeutigen
+  Key wählen, Blocklist anpassen, PR aufmachen — die Datei landet unter
+  `docs/gocal-de-<key>.ics` (überschreibbar via `file:`)
 - **Übersetzung ergänzen/fixen:** Pattern in `phrases_de.json` — geordnete
   `[Regex, Ersetzung]`-Paare, von oben nach unten angewendet, *nach* der
   Spezies-Übersetzung

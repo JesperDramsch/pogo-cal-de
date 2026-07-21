@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 """Filter and translate the go-calendar Pokémon GO ICS feed into German.
 
-Consumes the released ``gocal.ics`` from othyn/go-calendar, drops events
-whose category tag is blocklisted, translates event titles/descriptions
-into German, and writes the result to ``docs/gocal-de.ics``.
+Consumes the released ``gocal.ics`` from othyn/go-calendar, translates
+event titles/descriptions into German once, then emits one .ics per feed
+defined in ``feeds.yaml`` — each with its own blocklist of category tags.
 
 Date/time properties are never touched, so the upstream floating local
 times (deliberately timezone-free, see othyn/go-calendar README) pass
 through unchanged.
 
 Usage:
-    python translate.py [--in PATH_OR_URL] [--out PATH]
+    python translate.py [--in PATH_OR_URL] [--out-dir PATH] [--feed KEY ...]
 """
 
 from __future__ import annotations
@@ -22,6 +22,7 @@ import sys
 import urllib.request
 from pathlib import Path
 
+import yaml
 from icalendar import Calendar
 
 UPSTREAM_ICS = (
@@ -41,14 +42,31 @@ def fetch(url: str) -> bytes:
         return resp.read()
 
 
-def load_blocklist() -> set[str]:
-    path = ROOT / "blocklist.txt"
-    tags = set()
-    for line in path.read_text().splitlines():
-        line = line.split("#", 1)[0].strip()
-        if line:
-            tags.add(line.upper().strip("[]"))
-    return tags
+def load_feeds() -> list[dict]:
+    raw = yaml.safe_load((ROOT / "feeds.yaml").read_text())
+    entries = (raw or {}).get("feeds") or {}
+    if not entries:
+        raise SystemExit("feeds.yaml: no feeds defined")
+    feeds, files = [], set()
+    for key, cfg in entries.items():
+        cfg = cfg or {}
+        fname = cfg.get("file", f"gocal-de-{key}.ics")
+        if fname in files:
+            raise SystemExit(f"feeds.yaml: duplicate output file {fname!r}")
+        files.add(fname)
+        feeds.append(
+            {
+                "key": key,
+                "name": cfg.get("name", f"GO Kalender (DE) – {key}"),
+                "description": str(cfg.get("description", "")).strip(),
+                "file": fname,
+                "blocklist": {
+                    str(tag).upper().strip("[]")
+                    for tag in cfg.get("blocklist") or []
+                },
+            }
+        )
+    return feeds
 
 
 def load_species_map() -> list[tuple[str, str]]:
@@ -88,38 +106,12 @@ def translate_text(
     return text
 
 
-def main() -> int:
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--in", dest="src", default=UPSTREAM_ICS)
-    ap.add_argument("--out", dest="out", default=ROOT / "docs" / "gocal-de.ics")
-    args = ap.parse_args()
-
-    blocklist = load_blocklist()
+def translate_calendar(ics: bytes) -> bytes:
+    """Translate every event in the upstream ICS, keeping all of them."""
     phrases = load_phrases()
     species = load_species_map()
-
-    if str(args.src).startswith(("http://", "https://")):
-        ics = fetch(str(args.src))
-    else:
-        ics = Path(args.src).read_bytes()
-
     cal = Calendar.from_ical(ics)
-    cal["NAME"] = cal["X-WR-CALNAME"] = "GO Kalender (DE)"
-    cal["DESCRIPTION"] = cal["X-WR-CALDESC"] = (
-        "Pokémon GO Events auf Deutsch, in lokaler Zeit. "
-        "Gefiltert und übersetzt aus othyn/go-calendar (Daten: Leek Duck)."
-    )
-
-    kept = dropped = 0
-    for event in list(cal.walk("VEVENT")):
-        summary = str(event.get("SUMMARY", ""))
-        match = TAG_RE.match(summary)
-        tag = match.group(1) if match else ""
-        if tag in blocklist:
-            cal.subcomponents.remove(event)
-            dropped += 1
-            continue
-        kept += 1
+    for event in cal.walk("VEVENT"):
         for key in ("SUMMARY", "DESCRIPTION"):
             if key in event:
                 translated = translate_text(str(event[key]), phrases, species)
@@ -132,12 +124,67 @@ def main() -> int:
                 )
                 del alarm["DESCRIPTION"]
                 alarm.add("DESCRIPTION", translated)
+    return cal.to_ical()
 
-    out = Path(args.out)
-    out.parent.mkdir(parents=True, exist_ok=True)
+
+def build_feed(translated: bytes, feed: dict, out_dir: Path) -> None:
+    cal = Calendar.from_ical(translated)
+    cal["NAME"] = cal["X-WR-CALNAME"] = feed["name"]
+    if feed["description"]:
+        cal["DESCRIPTION"] = cal["X-WR-CALDESC"] = feed["description"]
+
+    kept = dropped = 0
+    for event in list(cal.walk("VEVENT")):
+        summary = str(event.get("SUMMARY", ""))
+        match = TAG_RE.match(summary)
+        tag = match.group(1) if match else ""
+        if tag in feed["blocklist"]:
+            cal.subcomponents.remove(event)
+            dropped += 1
+        else:
+            kept += 1
+
+    out = out_dir / feed["file"]
     out.write_bytes(cal.to_ical())
-    print(f"kept {kept}, dropped {dropped} (blocklist: {sorted(blocklist)})")
-    print(f"wrote {out}")
+    print(
+        f"[{feed['key']}] kept {kept}, dropped {dropped} "
+        f"(blocklist: {sorted(feed['blocklist'])}) -> {out}"
+    )
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--in", dest="src", default=UPSTREAM_ICS)
+    ap.add_argument("--out-dir", dest="out_dir", default=ROOT / "docs")
+    ap.add_argument(
+        "--feed",
+        dest="only",
+        action="append",
+        help="build only this feed key (repeatable); default: all feeds",
+    )
+    args = ap.parse_args()
+
+    feeds = load_feeds()
+    if args.only:
+        known = {f["key"] for f in feeds}
+        unknown = set(args.only) - known
+        if unknown:
+            raise SystemExit(
+                f"unknown feed(s) {sorted(unknown)}; defined: {sorted(known)}"
+            )
+        feeds = [f for f in feeds if f["key"] in args.only]
+
+    if str(args.src).startswith(("http://", "https://")):
+        ics = fetch(str(args.src))
+    else:
+        ics = Path(args.src).read_bytes()
+
+    translated = translate_calendar(ics)
+
+    out_dir = Path(args.out_dir)
+    out_dir.mkdir(parents=True, exist_ok=True)
+    for feed in feeds:
+        build_feed(translated, feed, out_dir)
     return 0
 
 
