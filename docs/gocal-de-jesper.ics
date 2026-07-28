@@ -10,46 +10,10 @@ X-WR-CALNAME:GO Kalender (DE)
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:PT1440M
 BEGIN:VEVENT
-SUMMARY:[PGF] GO Fest 2026 Sunday Raid Makeup
-DTSTART:20260726T100000
-DTEND:20260726T190000
-DTSTAMP:20260727T033509Z
-UID:pokemon-go-fest-2026-global-sunday-raid-makeup
-DESCRIPTION:Beginnt um 10:00\, endet um 19:00.\n\nhttps://leekduck.com/eve
- nts/pokemon-go-fest-2026-global-sunday-raid-makeup/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/
- 2026/2026-07-26-pokemon-go-fest-2026-global-sunday-raid-makeup/pokemon-go-
- fest-2026-global-sunday-raid-makeup.jpg
-URL:https://leekduck.com/events/pokemon-go-fest-2026-global-sunday-raid-ma
- keup/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[PGF] GO Fest 2026 Sunday Raid Makeup
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[E] Ozone Ascent - Rayquaza Timed Research
-DTSTART;VALUE=DATE:20260725
-DTEND;VALUE=DATE:20260726
-DTSTAMP:20260727T033509Z
-UID:ozone-ascent-2026
-DESCRIPTION:Beginnt um 10:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
- nts/ozone-ascent-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/
- 2026/2026-07-25-ozone-ascent-2026/ozone-ascent-2026.jpg
-URL:https://leekduck.com/events/ozone-ascent-2026/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[E] Ozone Ascent - Rayquaza Timed Research
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[E] Ultrabonus: 10th Anniversary Edition
 DTSTART;VALUE=DATE:20260721
 DTEND;VALUE=DATE:20260727
-DTSTAMP:20260727T033509Z
+DTSTAMP:20260728T025142Z
 UID:ultra-unlock-10th-anniversary-edition
 DESCRIPTION:Beginnt um 10:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
  nts/ultra-unlock-10th-anniversary-edition/
@@ -67,7 +31,7 @@ BEGIN:VEVENT
 SUMMARY:[RH] Raid-Stunde: Kyurem
 DTSTART:20260729T180000
 DTEND:20260729T190000
-DTSTAMP:20260727T033509Z
+DTSTAMP:20260728T025142Z
 UID:raidhour20260729
 DESCRIPTION:Beginnt um 18:00\, endet um 19:00.\n\nhttps://leekduck.com/eve
  nts/raidhour20260729/
@@ -83,7 +47,7 @@ BEGIN:VEVENT
 SUMMARY:[PSH] Rampenlichtstunde: Bidiza
 DTSTART:20260730T180000
 DTEND:20260730T190000
-DTSTAMP:20260727T033509Z
+DTSTAMP:20260728T025142Z
 UID:pokemonspotlighthour2026-07-30
 DESCRIPTION:Beginnt um 18:00\, endet um 19:00.\n\nhttps://leekduck.com/eve
  nts/pokemonspotlighthour2026-07-30/
@@ -100,7 +64,7 @@ BEGIN:VEVENT
 SUMMARY:[MB] Max-Kampf-Tag: Gigadynamax-Gortrom
 DTSTART:20260801T140000
 DTEND:20260801T170000
-DTSTAMP:20260727T033509Z
+DTSTAMP:20260728T025142Z
 UID:gigantamax-rillaboom-max-battle-day-2026
 DESCRIPTION:Beginnt um 14:00\, endet um 17:00.\n\nhttps://leekduck.com/eve
  nts/gigantamax-rillaboom-max-battle-day-2026/
@@ -118,7 +82,7 @@ BEGIN:VEVENT
 SUMMARY:[CYP] Wähle deinen Weg: Fairy Trail
 DTSTART;VALUE=DATE:20260728
 DTEND;VALUE=DATE:20260803
-DTSTAMP:20260727T033509Z
+DTSTAMP:20260728T025142Z
 UID:choose-your-path-fairy-trail-2026
 DESCRIPTION:Beginnt um 10:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
  nts/choose-your-path-fairy-trail-2026/
@@ -135,7 +99,7 @@ BEGIN:VEVENT
 SUMMARY:[RH] Raid-Stunde: Selfe\, Vesprit\, and Tobutz
 DTSTART:20260805T180000
 DTEND:20260805T190000
-DTSTAMP:20260727T033509Z
+DTSTAMP:20260728T025142Z
 UID:raidhour20260805
 DESCRIPTION:Beginnt um 18:00\, endet um 19:00.\n\nhttps://leekduck.com/eve
  nts/raidhour20260805/
@@ -151,7 +115,7 @@ BEGIN:VEVENT
 SUMMARY:[E] Schlüpf-Tag: Fire and Ice
 DTSTART:20260808T110000
 DTEND:20260808T170000
-DTSTAMP:20260727T033509Z
+DTSTAMP:20260728T025142Z
 UID:fire-and-ice-hatch-day-2026
 DESCRIPTION:Beginnt um 11:00\, endet um 17:00.\n\nhttps://leekduck.com/eve
  nts/fire-and-ice-hatch-day-2026/
@@ -169,7 +133,7 @@ BEGIN:VEVENT
 SUMMARY:[E] Summer Marathon: Arctic Embers
 DTSTART;VALUE=DATE:20260804
 DTEND;VALUE=DATE:20260810
-DTSTAMP:20260727T033509Z
+DTSTAMP:20260728T025142Z
 UID:summer-marathon-2026
 DESCRIPTION:Beginnt um 10:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
  nts/summer-marathon-2026/
@@ -186,7 +150,7 @@ BEGIN:VEVENT
 SUMMARY:[RH] Raid-Stunde: Groudon
 DTSTART:20260812T180000
 DTEND:20260812T190000
-DTSTAMP:20260727T033509Z
+DTSTAMP:20260728T025142Z
 UID:raidhour20260812
 DESCRIPTION:Beginnt um 18:00\, endet um 19:00.\n\nhttps://leekduck.com/eve
  nts/raidhour20260812/
@@ -202,7 +166,7 @@ BEGIN:VEVENT
 SUMMARY:[CD] Community Day: Kleptifux
 DTSTART:20260816T140000
 DTEND:20260816T170000
-DTSTAMP:20260727T033509Z
+DTSTAMP:20260728T025142Z
 UID:august-communityday2026
 DESCRIPTION:Beginnt um 14:00\, endet um 17:00.\n\nhttps://leekduck.com/eve
  nts/august-communityday2026/
@@ -219,7 +183,7 @@ BEGIN:VEVENT
 SUMMARY:[CYP] Wähle deinen Weg: Venom and Vines
 DTSTART;VALUE=DATE:20260811
 DTEND;VALUE=DATE:20260817
-DTSTAMP:20260727T033509Z
+DTSTAMP:20260728T025142Z
 UID:choose-your-path-venom-and-vines-2026
 DESCRIPTION:Beginnt um 10:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
  nts/choose-your-path-venom-and-vines-2026/
@@ -236,7 +200,7 @@ BEGIN:VEVENT
 SUMMARY:[RH] Raid-Stunde: Lunala
 DTSTART:20260819T180000
 DTEND:20260819T190000
-DTSTAMP:20260727T033509Z
+DTSTAMP:20260728T025142Z
 UID:raidhour20260819
 DESCRIPTION:Beginnt um 18:00\, endet um 19:00.\n\nhttps://leekduck.com/eve
  nts/raidhour20260819/
@@ -252,7 +216,7 @@ BEGIN:VEVENT
 SUMMARY:[RD] Raid-Tag: Starmie Super Mega
 DTSTART:20260822T110000
 DTEND:20260822T170000
-DTSTAMP:20260727T033509Z
+DTSTAMP:20260728T025142Z
 UID:starmie-super-mega-raid-day-2026
 DESCRIPTION:Beginnt um 11:00\, endet um 17:00.\n\nhttps://leekduck.com/eve
  nts/starmie-super-mega-raid-day-2026/
@@ -270,7 +234,7 @@ BEGIN:VEVENT
 SUMMARY:[E] Ultrabonus: Water Festival
 DTSTART;VALUE=DATE:20260818
 DTEND;VALUE=DATE:20260824
-DTSTAMP:20260727T033509Z
+DTSTAMP:20260728T025142Z
 UID:water-festival-2026
 DESCRIPTION:Beginnt um 10:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
  nts/water-festival-2026/
@@ -287,7 +251,7 @@ BEGIN:VEVENT
 SUMMARY:[RH] Raid-Stunde: Regirock\, Regice\, and Registeel
 DTSTART:20260826T180000
 DTEND:20260826T190000
-DTSTAMP:20260727T033509Z
+DTSTAMP:20260728T025142Z
 UID:raidhour20260826
 DESCRIPTION:Beginnt um 18:00\, endet um 19:00.\n\nhttps://leekduck.com/eve
  nts/raidhour20260826/
@@ -303,7 +267,7 @@ BEGIN:VEVENT
 SUMMARY:[E] Pokémon XP &amp\; 2026 Worlds
 DTSTART;VALUE=DATE:20260825
 DTEND;VALUE=DATE:20260830
-DTSTAMP:20260727T033509Z
+DTSTAMP:20260728T025142Z
 UID:pokemon-xp-2026-worlds
 DESCRIPTION:Beginnt um 10:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
  nts/pokemon-xp-2026-worlds/
@@ -320,7 +284,7 @@ BEGIN:VEVENT
 SUMMARY:[RH] Raid-Stunde: Regirock\, Regice\, and Registeel
 DTSTART:20260902T180000
 DTEND:20260902T190000
-DTSTAMP:20260727T033509Z
+DTSTAMP:20260728T025142Z
 UID:raidhour20260902
 DESCRIPTION:Beginnt um 18:00\, endet um 19:00.\n\nhttps://leekduck.com/eve
  nts/raidhour20260902/
