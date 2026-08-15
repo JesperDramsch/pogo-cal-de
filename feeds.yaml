@@ -30,4 +30,4 @@ feeds:
     description: >-
       Pokémon GO Events auf Deutsch, in lokaler Zeit. Gefiltert und
       übersetzt aus othyn/go-calendar (Daten: Leek Duck).
-    blocklist: [MM, GBL, S, RB, GP]
+    blocklist: [MM, GBL, S, RB, GP, E]
