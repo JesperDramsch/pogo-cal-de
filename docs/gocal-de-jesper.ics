@@ -112,23 +112,6 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[E] Ultrabonus: Water Festival
-DTSTART;VALUE=DATE:20260818
-DTEND;VALUE=DATE:20260825
-DTSTAMP:20260815T012654Z
-UID:water-festival-2026
-DESCRIPTION:Beginnt um 10:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
- nts/water-festival-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/
- 2026/2026-08-18-water-festival-2026/water-festival-2026.jpg?v2
-URL:https://leekduck.com/events/water-festival-2026/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[E] Ultrabonus: Water Festival
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[RH] Raid-Stunde: Regirock\, Regice\, and Registeel
 DTSTART:20260826T180000
 DTEND:20260826T190000
@@ -181,23 +164,6 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[E] PokémonXP &amp\; 2026 Worlds
-DTSTART;VALUE=DATE:20260825
-DTEND;VALUE=DATE:20260831
-DTSTAMP:20260815T012654Z
-UID:pokemon-xp-2026-worlds
-DESCRIPTION:Beginnt um 10:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
- nts/pokemon-xp-2026-worlds/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/
- 2026/2026-08-25-pokemon-xp-2026-worlds/pokemon-xp-2026-worlds.jpg
-URL:https://leekduck.com/events/pokemon-xp-2026-worlds/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[E] PokémonXP &amp\; 2026 Worlds
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[RH] Raid-Stunde: Regirock\, Regice\, and Registeel
 DTSTART:20260902T180000
 DTEND:20260902T190000
@@ -210,23 +176,6 @@ URL:https://leekduck.com/events/raidhour20260902/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[RH] Raid-Stunde: Regirock\, Regice\, and Registeel
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[E] Mega Ascension
-DTSTART;VALUE=DATE:20260831
-DTEND;VALUE=DATE:20260905
-DTSTAMP:20260815T012654Z
-UID:mega-ascension
-DESCRIPTION:Beginnt um 10:00\, endet um 23:59.\n\nhttps://leekduck.com/eve
- nts/mega-ascension/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/
- 2026/2026-08-31-mega-ascension/mega-ascension.jpg
-URL:https://leekduck.com/events/mega-ascension/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[E] Mega Ascension
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -245,25 +194,6 @@ URL:https://leekduck.com/events/pokemon-go-fest-2026-mega-finale/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[PGF] Pokémon GO Fest 2026: Mega Finale
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[E] 10th Anniversary Celebration - Perfect Mewtu Timed Research
-DTSTART;VALUE=DATE:20260812
-DTEND;VALUE=DATE:20260907
-DTSTAMP:20260815T012654Z
-UID:10th-anniversary-celebration
-DESCRIPTION:Beginnt um 16:00\, endet um 23:59.\n\nhttps://leekduck.com/eve
- nts/10th-anniversary-celebration/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/
- 2026/2026-08-12-10th-anniversary-celebration/10th-anniversary-celebration-
- 2026.jpg
-URL:https://leekduck.com/events/10th-anniversary-celebration/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[E] 10th Anniversary Celebration - Perfect Mewtu Timed Researc
- h
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -301,40 +231,6 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[E] Catch Mastery
-DTSTART:20260926T100000
-DTEND:20260926T200000
-DTSTAMP:20260815T012654Z
-UID:catch-mastery-september-2026
-DESCRIPTION:Beginnt um 10:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
- nts/catch-mastery-september-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-
- img.jpg
-URL:https://leekduck.com/events/catch-mastery-september-2026/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[E] Catch Mastery
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[E] LEGO Stores and Pokémon GO
-DTSTART;VALUE=DATE:20260803
-DTEND;VALUE=DATE:20261001
-DTSTAMP:20260815T012654Z
-UID:lego-pokemon-go-2026
-DESCRIPTION:Beginnt um 10:00\, endet um 23:59.\n\nhttps://leekduck.com/eve
- nts/lego-pokemon-go-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/
- 2026/2026-08-03-lego-pokemon-go-2026/lego-stores-pokemon-go.jpg
-URL:https://leekduck.com/events/lego-pokemon-go-2026/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[E] LEGO Stores and Pokémon GO
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[MB] Max Battle Day
 DTSTART:20261003T140000
 DTEND:20261003T170000
@@ -364,23 +260,6 @@ URL:https://leekduck.com/events/october-communityday2026/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[CD] Community Day: Oktober
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[E] Hatch Day
-DTSTART:20261017T110000
-DTEND:20261017T170000
-DTSTAMP:20260815T012654Z
-UID:hatch-day-october-2026
-DESCRIPTION:Beginnt um 11:00\, endet um 17:00.\n\nhttps://leekduck.com/eve
- nts/hatch-day-october-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-
- img.jpg
-URL:https://leekduck.com/events/hatch-day-october-2026/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[E] Hatch Day
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
