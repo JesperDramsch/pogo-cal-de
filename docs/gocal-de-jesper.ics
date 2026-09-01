@@ -10,29 +10,10 @@ X-WR-CALNAME:GO Kalender (DE)
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:PT1440M
 BEGIN:VEVENT
-SUMMARY:[R] Twitch Drops for 2026 Pokémon World Championships
-DTSTART;VALUE=DATE:20260828
-DTEND;VALUE=DATE:20260901
-DTSTAMP:20260831T044702Z
-UID:pokemon-world-championships-2026-timed-research-twitch-drops
-DESCRIPTION:Beginnt um 16:00\, endet um 03:00.\n\nhttps://leekduck.com/eve
- nts/pokemon-world-championships-2026-timed-research-twitch-drops/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/
- 2026/2026-08-28-pokemon-world-championships-2026-timed-research-twitch-dro
- ps/2026-worlds-go-drops.jpg
-URL:https://leekduck.com/events/pokemon-world-championships-2026-timed-res
- earch-twitch-drops/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[R] Twitch Drops for 2026 Pokémon World Championships
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[RH] Raid-Stunde: Regirock\, Regice\, and Registeel
 DTSTART:20260902T180000
 DTEND:20260902T190000
-DTSTAMP:20260831T044702Z
+DTSTAMP:20260901T042651Z
 UID:raidhour20260902
 DESCRIPTION:Beginnt um 18:00\, endet um 19:00.\n\nhttps://leekduck.com/eve
  nts/raidhour20260902/
@@ -48,7 +29,7 @@ BEGIN:VEVENT
 SUMMARY:[PGF] Pokémon GO Fest 2026: Mega Finale
 DTSTART:20260905T100000
 DTEND:20260906T180000
-DTSTAMP:20260831T044702Z
+DTSTAMP:20260901T042651Z
 UID:pokemon-go-fest-2026-mega-finale
 DESCRIPTION:Beginnt um 10:00\, endet um 18:00.\n\nhttps://leekduck.com/eve
  nts/pokemon-go-fest-2026-mega-finale/
@@ -66,7 +47,7 @@ BEGIN:VEVENT
 SUMMARY:[RH] Raid-Stunde: Zacian (Hero of Many Battles)
 DTSTART:20260909T180000
 DTEND:20260909T190000
-DTSTAMP:20260831T044702Z
+DTSTAMP:20260901T042651Z
 UID:raidhour20260909
 DESCRIPTION:Beginnt um 18:00\, endet um 19:00.\n\nhttps://leekduck.com/eve
  nts/raidhour20260909/
@@ -82,7 +63,7 @@ BEGIN:VEVENT
 SUMMARY:[PSH] Rampenlichtstunde: Hornliu\, Kokuna\, and Bibor
 DTSTART:20260910T180000
 DTEND:20260910T190000
-DTSTAMP:20260831T044702Z
+DTSTAMP:20260901T042651Z
 UID:pokemonspotlighthour2026-09-10
 DESCRIPTION:Beginnt um 18:00\, endet um 19:00.\n\nhttps://leekduck.com/eve
  nts/pokemonspotlighthour2026-09-10/
@@ -96,18 +77,20 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[CD] Community Day Classic: September
+SUMMARY:[CD] Community Day Classic: Kaumalat
 DTSTART:20260912T140000
 DTEND:20260912T170000
-DTSTAMP:20260831T044702Z
+DTSTAMP:20260901T042651Z
 UID:september-communitydayclassic2026
 DESCRIPTION:Beginnt um 14:00\, endet um 17:00.\n\nhttps://leekduck.com/eve
  nts/september-communitydayclassic2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/cd-default.jpg
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/
+ 2026/2026-09-12-september-communitydayclassic2026/gible-community-day-clas
+ sic.jpg
 URL:https://leekduck.com/events/september-communitydayclassic2026/
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[CD] Community Day Classic: September
+DESCRIPTION:[CD] Community Day Classic: Kaumalat
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -115,7 +98,7 @@ BEGIN:VEVENT
 SUMMARY:[PSH] Rampenlichtstunde: Hunduster and Hundemon
 DTSTART:20260913T180000
 DTEND:20260913T190000
-DTSTAMP:20260831T044702Z
+DTSTAMP:20260901T042651Z
 UID:pokemonspotlighthour2026-09-13
 DESCRIPTION:Beginnt um 18:00\, endet um 19:00.\n\nhttps://leekduck.com/eve
  nts/pokemonspotlighthour2026-09-13/
@@ -132,7 +115,7 @@ BEGIN:VEVENT
 SUMMARY:[RH] Raid-Stunde: Zamazenta (Hero of Many Battles)
 DTSTART:20260916T180000
 DTEND:20260916T190000
-DTSTAMP:20260831T044702Z
+DTSTAMP:20260901T042651Z
 UID:raidhour20260916
 DESCRIPTION:Beginnt um 18:00\, endet um 19:00.\n\nhttps://leekduck.com/eve
  nts/raidhour20260916/
@@ -148,7 +131,7 @@ BEGIN:VEVENT
 SUMMARY:[PSH] Rampenlichtstunde: Mystery Pokémon
 DTSTART:20260917T180000
 DTEND:20260917T190000
-DTSTAMP:20260831T044702Z
+DTSTAMP:20260901T042651Z
 UID:pokemonspotlighthour2026-09-17
 DESCRIPTION:Beginnt um 18:00\, endet um 19:00.\n\nhttps://leekduck.com/eve
  nts/pokemonspotlighthour2026-09-17/
@@ -165,7 +148,7 @@ BEGIN:VEVENT
 SUMMARY:[RD] Raid-Tag: Super Mega
 DTSTART:20260919T140000
 DTEND:20260919T170000
-DTSTAMP:20260831T044702Z
+DTSTAMP:20260901T042651Z
 UID:super-mega-raid-day-september-2026
 DESCRIPTION:Beginnt um 14:00\, endet um 17:00.\n\nhttps://leekduck.com/eve
  nts/super-mega-raid-day-september-2026/
@@ -182,7 +165,7 @@ BEGIN:VEVENT
 SUMMARY:[RH] Raid-Stunde: Voltriant\, Schabelle\, and Masskito
 DTSTART:20260923T180000
 DTEND:20260923T190000
-DTSTAMP:20260831T044702Z
+DTSTAMP:20260901T042651Z
 UID:raidhour20260923
 DESCRIPTION:Beginnt um 18:00\, endet um 19:00.\n\nhttps://leekduck.com/eve
  nts/raidhour20260923/
@@ -198,7 +181,7 @@ BEGIN:VEVENT
 SUMMARY:[PSH] Rampenlichtstunde: Rattfratz
 DTSTART:20260924T180000
 DTEND:20260924T190000
-DTSTAMP:20260831T044702Z
+DTSTAMP:20260901T042651Z
 UID:pokemonspotlighthour2026-09-24
 DESCRIPTION:Beginnt um 18:00\, endet um 19:00.\n\nhttps://leekduck.com/eve
  nts/pokemonspotlighthour2026-09-24/
@@ -215,7 +198,7 @@ BEGIN:VEVENT
 SUMMARY:[RH] Raid-Stunde: Xerneas
 DTSTART:20260930T180000
 DTEND:20260930T190000
-DTSTAMP:20260831T044702Z
+DTSTAMP:20260901T042651Z
 UID:raidhour20260930
 DESCRIPTION:Beginnt um 18:00\, endet um 19:00.\n\nhttps://leekduck.com/eve
  nts/raidhour20260930/
@@ -231,7 +214,7 @@ BEGIN:VEVENT
 SUMMARY:[MB] Max Battle Day
 DTSTART:20261003T140000
 DTEND:20261003T170000
-DTSTAMP:20260831T044702Z
+DTSTAMP:20260901T042651Z
 UID:max-battle-day-october-2026
 DESCRIPTION:Beginnt um 14:00\, endet um 17:00.\n\nhttps://leekduck.com/eve
  nts/max-battle-day-october-2026/
@@ -248,7 +231,7 @@ BEGIN:VEVENT
 SUMMARY:[CD] Community Day: Oktober
 DTSTART:20261010T140000
 DTEND:20261010T170000
-DTSTAMP:20260831T044702Z
+DTSTAMP:20260901T042651Z
 UID:october-communityday2026
 DESCRIPTION:Beginnt um 14:00\, endet um 17:00.\n\nhttps://leekduck.com/eve
  nts/october-communityday2026/
@@ -264,7 +247,7 @@ BEGIN:VEVENT
 SUMMARY:[MB] Max Battle Day
 DTSTART:20261024T140000
 DTEND:20261024T170000
-DTSTAMP:20260831T044702Z
+DTSTAMP:20260901T042651Z
 UID:max-battle-day-october-24-2026
 DESCRIPTION:Beginnt um 14:00\, endet um 17:00.\n\nhttps://leekduck.com/eve
  nts/max-battle-day-october-24-2026/
@@ -281,7 +264,7 @@ BEGIN:VEVENT
 SUMMARY:[RD] Raid-Tag: Super Mega
 DTSTART:20261031T140000
 DTEND:20261031T170000
-DTSTAMP:20260831T044702Z
+DTSTAMP:20260901T042651Z
 UID:super-mega-raid-day-october-2026
 DESCRIPTION:Beginnt um 14:00\, endet um 17:00.\n\nhttps://leekduck.com/eve
  nts/super-mega-raid-day-october-2026/
@@ -298,7 +281,7 @@ BEGIN:VEVENT
 SUMMARY:[CD] Community Day: November
 DTSTART:20261121T140000
 DTEND:20261121T170000
-DTSTAMP:20260831T044702Z
+DTSTAMP:20260901T042651Z
 UID:november-communityday2026
 DESCRIPTION:Beginnt um 14:00\, endet um 17:00.\n\nhttps://leekduck.com/eve
  nts/november-communityday2026/
@@ -314,7 +297,7 @@ BEGIN:VEVENT
 SUMMARY:[RD] Raid-Tag: Super Mega
 DTSTART:20261128T140000
 DTEND:20261128T170000
-DTSTAMP:20260831T044702Z
+DTSTAMP:20260901T042651Z
 UID:super-mega-raid-day-november-2026
 DESCRIPTION:Beginnt um 14:00\, endet um 17:00.\n\nhttps://leekduck.com/eve
  nts/super-mega-raid-day-november-2026/
