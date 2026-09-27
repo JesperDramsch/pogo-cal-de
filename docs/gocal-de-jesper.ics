@@ -436,23 +436,6 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[R] adidas × Pokémon Timed Research
-DTSTART;VALUE=DATE:20260925
-DTEND;VALUE=DATE:20270116
-DTSTAMP:20260927T043912Z
-UID:pokemon-x-adidas-2026
-DESCRIPTION:Beginnt um 10:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
- nts/pokemon-x-adidas-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokemon-x-adida
- s-2026.jpg
-URL:https://leekduck.com/events/pokemon-x-adidas-2026/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[R] adidas × Pokémon Timed Research
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[PGT] Pokémon GO Tour: Alola - Kaohsiung 2027
 DTSTART;VALUE=DATE:20270218
 DTEND;VALUE=DATE:20270222
