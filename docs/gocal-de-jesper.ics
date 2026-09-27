@@ -484,40 +484,6 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[PGT] Pokémon GO Tour: Alola - Kaohsiung 2027
-DTSTART;VALUE=DATE:20270218
-DTEND;VALUE=DATE:20270222
-DTSTAMP:20260927T043912Z
-UID:pokemon-go-tour-alola-kaohsiung-2027
-DESCRIPTION:Beginnt um 16:00\, endet um 15:59.\n\nhttps://leekduck.com/eve
- nts/pokemon-go-tour-alola-kaohsiung-2027/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-
- img.jpg
-URL:https://leekduck.com/events/pokemon-go-tour-alola-kaohsiung-2027/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[PGT] Pokémon GO Tour: Alola - Kaohsiung 2027
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[PGT] Pokémon GO Tour: Alola - Los Angeles 2027
-DTSTART;VALUE=DATE:20270219
-DTEND;VALUE=DATE:20270223
-DTSTAMP:20260927T043912Z
-UID:pokemon-go-tour-alola-los-angeles-2027
-DESCRIPTION:Beginnt um 08:00\, endet um 07:59.\n\nhttps://leekduck.com/eve
- nts/pokemon-go-tour-alola-los-angeles-2027/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-
- img.jpg
-URL:https://leekduck.com/events/pokemon-go-tour-alola-los-angeles-2027/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[PGT] Pokémon GO Tour: Alola - Los Angeles 2027
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[PGT] Pokémon GO Tour: Alola - Global 2027
 DTSTART:20270227T000000
 DTEND:20270228T235959
