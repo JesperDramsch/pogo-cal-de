@@ -41,5 +41,6 @@ feeds:
     blocklist: [MM, GBL, S, RB, GP]
     max_days: 14
     require:
-      WA: Global
+      WA: Global|Germany|Berlin|Cologne|Hamburg|Hannover
+      PGT: Global|Germany|Berlin|Cologne|Hamburg|Hannover
       CS: Germany
