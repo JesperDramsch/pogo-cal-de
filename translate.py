@@ -3,8 +3,9 @@
 
 Consumes the released ``gocal.ics`` from othyn/go-calendar, translates
 event titles/descriptions into German once, then emits one .ics per feed
-defined in ``feeds.yaml`` — each with its own blocklist of category tags
-and an optional ``max_days`` cap on event length.
+defined in ``feeds.yaml`` — each with its own blocklist of category tags,
+an optional ``max_days`` cap on event length, and optional per-tag
+``require`` patterns the title must match.
 
 Date/time properties are never touched, so the upstream floating local
 times (deliberately timezone-free, see othyn/go-calendar README) pass
@@ -58,6 +59,22 @@ def parse_max_days(key: str, value) -> timedelta | None:
     return timedelta(days=days)
 
 
+def parse_require(key: str, value) -> dict[str, re.Pattern[str]]:
+    if not value:
+        return {}
+    if not isinstance(value, dict):
+        raise SystemExit(f"feeds.yaml: {key}.require must be a TAG: regex mapping")
+    rules = {}
+    for tag, pattern in value.items():
+        try:
+            rules[str(tag).upper().strip("[]")] = re.compile(str(pattern), re.I)
+        except re.error as exc:
+            raise SystemExit(
+                f"feeds.yaml: {key}.require.{tag}: bad regex {pattern!r} ({exc})"
+            )
+    return rules
+
+
 def event_length(event) -> timedelta | None:
     """DTEND - DTSTART (or DURATION); None if the event has neither."""
     if "DTSTART" not in event:
@@ -88,6 +105,7 @@ def load_feeds() -> list[dict]:
                     for tag in cfg.get("blocklist") or []
                 },
                 "max_days": parse_max_days(key, cfg.get("max_days")),
+                "require": parse_require(key, cfg.get("require")),
             }
         )
     return feeds
@@ -158,15 +176,19 @@ def build_feed(translated: bytes, feed: dict, out_dir: Path) -> None:
         cal["DESCRIPTION"] = cal["X-WR-CALDESC"] = feed["description"]
 
     max_len = feed["max_days"]
-    kept = dropped = too_long = 0
+    kept = dropped = too_long = unmatched = 0
     for event in list(cal.walk("VEVENT")):
         summary = str(event.get("SUMMARY", ""))
         match = TAG_RE.match(summary)
         tag = match.group(1) if match else ""
         length = event_length(event)
+        required = feed["require"].get(tag)
         if tag in feed["blocklist"]:
             cal.subcomponents.remove(event)
             dropped += 1
+        elif required is not None and not required.search(summary):
+            cal.subcomponents.remove(event)
+            unmatched += 1
         elif max_len is not None and length is not None and length > max_len:
             cal.subcomponents.remove(event)
             too_long += 1
@@ -179,7 +201,8 @@ def build_feed(translated: bytes, feed: dict, out_dir: Path) -> None:
     print(
         f"[{feed['key']}] kept {kept}, dropped {dropped} "
         f"(blocklist: {sorted(feed['blocklist'])}), "
-        f"too long {too_long} (max_days: {limit}) -> {out}"
+        f"too long {too_long} (max_days: {limit}), "
+        f"unmatched {unmatched} (require: {sorted(feed['require'])}) -> {out}"
     )
 
 

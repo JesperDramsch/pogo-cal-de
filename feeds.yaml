@@ -17,6 +17,10 @@
 # (z. B. monatelange Timed Research). Kommazahlen gehen (`0.5` = 12 h).
 # Weglassen = keine Längenbegrenzung. Greift zusätzlich zur Blocklist.
 #
+# Optional `require`: pro Tag ein Regex, den der Titel enthalten muss,
+# sonst fliegt das Event raus (Groß-/Kleinschreibung egal). Beispiel:
+# `require: {WA: Global}` behält von den Naturzonen nur die globale.
+#
 # Eigenen Feed hinzufügen: Block kopieren, eindeutigen Key wählen,
 # Blocklist anpassen, PR aufmachen. Die Datei landet unter
 # docs/gocal-de-<key>.ics.
@@ -36,3 +40,5 @@ feeds:
       übersetzt aus othyn/go-calendar (Daten: Leek Duck).
     blocklist: [MM, GBL, S, RB, GP, E]
     max_days: 14
+    require:
+      WA: Global
