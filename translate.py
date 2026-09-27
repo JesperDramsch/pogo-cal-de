@@ -3,7 +3,8 @@
 
 Consumes the released ``gocal.ics`` from othyn/go-calendar, translates
 event titles/descriptions into German once, then emits one .ics per feed
-defined in ``feeds.yaml`` — each with its own blocklist of category tags.
+defined in ``feeds.yaml`` — each with its own blocklist of category tags
+and an optional ``max_days`` cap on event length.
 
 Date/time properties are never touched, so the upstream floating local
 times (deliberately timezone-free, see othyn/go-calendar README) pass
@@ -20,6 +21,7 @@ import json
 import re
 import sys
 import urllib.request
+from datetime import timedelta
 from pathlib import Path
 
 import yaml
@@ -42,6 +44,31 @@ def fetch(url: str) -> bytes:
         return resp.read()
 
 
+def parse_max_days(key: str, value) -> timedelta | None:
+    if value is None:
+        return None
+    try:
+        days = float(value)
+    except (TypeError, ValueError):
+        raise SystemExit(
+            f"feeds.yaml: {key}.max_days must be a number, got {value!r}"
+        )
+    if days <= 0:
+        raise SystemExit(f"feeds.yaml: {key}.max_days must be > 0, got {value!r}")
+    return timedelta(days=days)
+
+
+def event_length(event) -> timedelta | None:
+    """DTEND - DTSTART (or DURATION); None if the event has neither."""
+    if "DTSTART" not in event:
+        return None
+    if "DTEND" in event:
+        return event.decoded("DTEND") - event.decoded("DTSTART")
+    if "DURATION" in event:
+        return event.decoded("DURATION")
+    return None
+
+
 def load_feeds() -> list[dict]:
     raw = yaml.safe_load((ROOT / "feeds.yaml").read_text())
     entries = (raw or {}).get("feeds") or {}
@@ -60,6 +87,7 @@ def load_feeds() -> list[dict]:
                     str(tag).upper().strip("[]")
                     for tag in cfg.get("blocklist") or []
                 },
+                "max_days": parse_max_days(key, cfg.get("max_days")),
             }
         )
     return feeds
@@ -129,22 +157,29 @@ def build_feed(translated: bytes, feed: dict, out_dir: Path) -> None:
     if feed["description"]:
         cal["DESCRIPTION"] = cal["X-WR-CALDESC"] = feed["description"]
 
-    kept = dropped = 0
+    max_len = feed["max_days"]
+    kept = dropped = too_long = 0
     for event in list(cal.walk("VEVENT")):
         summary = str(event.get("SUMMARY", ""))
         match = TAG_RE.match(summary)
         tag = match.group(1) if match else ""
+        length = event_length(event)
         if tag in feed["blocklist"]:
             cal.subcomponents.remove(event)
             dropped += 1
+        elif max_len is not None and length is not None and length > max_len:
+            cal.subcomponents.remove(event)
+            too_long += 1
         else:
             kept += 1
 
     out = out_dir / feed["file"]
     out.write_bytes(cal.to_ical())
+    limit = f"{max_len.total_seconds() / 86400:g} d" if max_len else "none"
     print(
         f"[{feed['key']}] kept {kept}, dropped {dropped} "
-        f"(blocklist: {sorted(feed['blocklist'])}) -> {out}"
+        f"(blocklist: {sorted(feed['blocklist'])}), "
+        f"too long {too_long} (max_days: {limit}) -> {out}"
     )
 
 

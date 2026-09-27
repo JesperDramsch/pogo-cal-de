@@ -13,6 +13,10 @@
 #   GP   GO Pass                PGF  GO Fest
 #   CD   Community Day          S    Season
 #
+# Optional `max_days`: Events, die länger als N Tage laufen, fliegen raus
+# (z. B. monatelange Timed Research). Kommazahlen gehen (`0.5` = 12 h).
+# Weglassen = keine Längenbegrenzung. Greift zusätzlich zur Blocklist.
+#
 # Eigenen Feed hinzufügen: Block kopieren, eindeutigen Key wählen,
 # Blocklist anpassen, PR aufmachen. Die Datei landet unter
 # docs/gocal-de-<key>.ics.
@@ -31,3 +35,4 @@ feeds:
       Pokémon GO Events auf Deutsch, in lokaler Zeit. Gefiltert und
       übersetzt aus othyn/go-calendar (Daten: Leek Duck).
     blocklist: [MM, GBL, S, RB, GP, E]
+    max_days: 14

@@ -18,7 +18,7 @@ Blocklist.
 
 | Feed | URL | Inhalt |
 | --- | --- | --- |
-| `jesper` | `webcal://<user>.github.io/pogo-cal-de/gocal-de-jesper.ics` | Kuratiert (ohne Max Monday, GBL, Season, Raids …) |
+| `jesper` | `webcal://<user>.github.io/pogo-cal-de/gocal-de-jesper.ics` | Kuratiert (ohne Max Monday, GBL, Season, Raids …, nichts länger als 14 Tage) |
 | `all` | `webcal://<user>.github.io/pogo-cal-de/gocal-de-all.ics` | Alle Events, nur übersetzt — nichts gefiltert |
 
 Jeder Feed landet unter `gocal-de-<key>.ics`. Funktioniert in Proton
@@ -29,7 +29,8 @@ Auth-Header im Weg.
 
 1. GitHub Action (alle 6 h) lädt das released `gocal.ics` vom Upstream
 2. `translate.py` übersetzt einmal alles und schreibt dann pro Feed aus
-   `feeds.yaml` ein eigenes `.ics`, gefiltert nach dessen Blocklist
+   `feeds.yaml` ein eigenes `.ics`, gefiltert nach dessen Blocklist und
+   optional nach maximaler Eventlänge (`max_days`)
 3. Titel/Beschreibungen werden übersetzt:
    - **Spezies-Namen** (inkl. Mega-Formen) aus
      [pogo-filter-workshop](https://github.com/JesperDramsch/pogo-filter-workshop)
@@ -46,6 +47,9 @@ Rampenlichtstunde bleibt 18:00, egal wo dein Kalender-Client steht.
 
 - **Kategorie ausblenden:** Tag in die `blocklist` des eigenen Feeds in
   `feeds.yaml` eintragen (`MM`, `GBL`, …)
+- **Lange Events ausblenden:** `max_days: N` im Feed setzen. Alles, was
+  länger als N Tage läuft (z. B. Timed Research über Monate), fliegt raus.
+  Kommazahlen gehen, weglassen heißt keine Begrenzung
 - **Eigenen Feed hinzufügen:** Block in `feeds.yaml` kopieren, eindeutigen
   Key wählen, Blocklist anpassen, PR aufmachen — die Datei landet unter
   `docs/gocal-de-<key>.ics`
