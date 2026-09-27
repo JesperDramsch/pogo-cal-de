@@ -352,40 +352,6 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[WA] Pokémon GO Naturzone 2026: Sendai • Tohoku
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261109
-DTSTAMP:20260927T043912Z
-UID:pokemon-go-wild-area-2026-sendai-japan
-DESCRIPTION:Beginnt um 01:00\, endet um 09:00.\n\nhttps://leekduck.com/eve
- nts/pokemon-go-wild-area-2026-sendai-japan/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/
- 2026/2026-11-06-pokemon-go-wild-area-2026-sendai-japan/key-art.jpg
-URL:https://leekduck.com/events/pokemon-go-wild-area-2026-sendai-japan/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[WA] Pokémon GO Naturzone 2026: Sendai • Tohoku
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[WA] Pokémon GO Naturzone 2026: Mexico City
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261110
-DTSTAMP:20260927T043912Z
-UID:pokemon-go-wild-area-2026-mexico-city
-DESCRIPTION:Beginnt um 16:00\, endet um 00:00.\n\nhttps://leekduck.com/eve
- nts/pokemon-go-wild-area-2026-mexico-city/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/
- 2026/2026-11-06-pokemon-go-wild-area-2026-mexico-city/key-art.jpg
-URL:https://leekduck.com/events/pokemon-go-wild-area-2026-mexico-city/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[WA] Pokémon GO Naturzone 2026: Mexico City
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[WA] Pokémon GO Naturzone 2026: Global
 DTSTART:20261114T100000
 DTEND:20261115T180000
