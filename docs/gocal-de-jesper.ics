@@ -10,38 +10,19 @@ X-WR-CALNAME:GO Kalender (DE)
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:PT1440M
 BEGIN:VEVENT
-SUMMARY:[CS] Brisbane\, Australia - Pokémon GO City Safari
-DTSTART:20260926T000000
-DTEND:20260927T080000
+SUMMARY:[E] Paragoni Catch Mastery
+DTSTART:20260926T100000
+DTEND:20260926T200000
 DTSTAMP:20260927T043912Z
-UID:pokemon-go-city-safari-brisbane-2026
-DESCRIPTION:Beginnt um 00:00\, endet um 08:00.\n\nhttps://leekduck.com/eve
- nts/pokemon-go-city-safari-brisbane-2026/
+UID:catch-mastery-phantump-2026
+DESCRIPTION:Beginnt um 10:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
+ nts/catch-mastery-phantump-2026/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/
- 2026/2026-09-26-pokemon-go-city-safari-brisbane-2026/city-safari-brisbane-
- 2026.jpg
-URL:https://leekduck.com/events/pokemon-go-city-safari-brisbane-2026/
+ 2026/2026-09-26-catch-mastery-phantump-2026/phantump-catch-mastery.jpg?v2
+URL:https://leekduck.com/events/catch-mastery-phantump-2026/
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[CS] Brisbane\, Australia - Pokémon GO City Safari
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[CS] Marseille\, France - Pokémon GO City Safari
-DTSTART:20260926T080000
-DTEND:20260927T160000
-DTSTAMP:20260927T043912Z
-UID:pokemon-go-city-safari-marseille-2026
-DESCRIPTION:Beginnt um 08:00\, endet um 16:00.\n\nhttps://leekduck.com/eve
- nts/pokemon-go-city-safari-marseille-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/
- 2026/2026-09-26-pokemon-go-city-safari-marseille-2026/city-safari-marseill
- e-2026.jpg
-URL:https://leekduck.com/events/pokemon-go-city-safari-marseille-2026/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[CS] Marseille\, France - Pokémon GO City Safari
+DESCRIPTION:[E] Paragoni Catch Mastery
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -60,43 +41,6 @@ URL:https://leekduck.com/events/pokemon-go-city-safari-munich-2026/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[CS] Munich\, Germany - Pokémon GO City Safari
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[CS] Lisbon\, Portugal - Pokémon GO City Safari
-DTSTART:20260926T090000
-DTEND:20260927T170000
-DTSTAMP:20260927T043912Z
-UID:pokemon-go-city-safari-lisbon-2026
-DESCRIPTION:Beginnt um 09:00\, endet um 17:00.\n\nhttps://leekduck.com/eve
- nts/pokemon-go-city-safari-lisbon-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/
- 2026/2026-09-26-pokemon-go-city-safari-lisbon-2026/city-safari-lisbon-2026
- .jpg
-URL:https://leekduck.com/events/pokemon-go-city-safari-lisbon-2026/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[CS] Lisbon\, Portugal - Pokémon GO City Safari
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[CS] Rio de Janeiro\, Brazil - Pokémon GO City Safari
-DTSTART:20260926T130000
-DTEND:20260927T210000
-DTSTAMP:20260927T043912Z
-UID:pokemon-go-city-safari-rio-de-janeiro-2026
-DESCRIPTION:Beginnt um 13:00\, endet um 21:00.\n\nhttps://leekduck.com/eve
- nts/pokemon-go-city-safari-rio-de-janeiro-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/
- 2026/2026-09-26-pokemon-go-city-safari-rio-de-janeiro-2026/city-safari-rio
- -de-janeiro-2026.jpg
-URL:https://leekduck.com/events/pokemon-go-city-safari-rio-de-janeiro-2026
- /
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[CS] Rio de Janeiro\, Brazil - Pokémon GO City Safari
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -151,6 +95,23 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[E] Patterns of the Wild
+DTSTART:20261002T100000
+DTEND:20261002T200000
+DTSTAMP:20260927T043912Z
+UID:patterns-of-the-wild-2026
+DESCRIPTION:Beginnt um 10:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
+ nts/patterns-of-the-wild-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/
+ 2026/2026-10-02-patterns-of-the-wild-2026/patterns-of-the-wild-2026.jpg
+URL:https://leekduck.com/events/patterns-of-the-wild-2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Patterns of the Wild
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[MB] Max-Kampf-Tag: Gigadynamax-Liberlo
 DTSTART:20261003T140000
 DTEND:20261003T170000
@@ -165,6 +126,41 @@ URL:https://leekduck.com/events/gigantamax-cinderace-max-battle-day-2026/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[MB] Max-Kampf-Tag: Gigadynamax-Liberlo
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[E] Harvest Festival 2026: Knapfel Picking
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20261006
+DTSTAMP:20260927T043912Z
+UID:harvest-festival-2026
+DESCRIPTION:Beginnt um 10:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
+ nts/harvest-festival-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/
+ 2026/2026-09-29-harvest-festival-2026/harvest-festival-2026.jpg
+URL:https://leekduck.com/events/harvest-festival-2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Harvest Festival 2026: Knapfel Picking
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[E] Harvest Festival: Taken Over
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261006
+DTSTAMP:20260927T043912Z
+UID:harvest-festival-taken-over-2026
+DESCRIPTION:Beginnt um 00:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
+ nts/harvest-festival-taken-over-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/
+ 2026/2026-10-02-harvest-festival-taken-over-2026/harvest-festival-taken-ov
+ er-2026.jpg
+URL:https://leekduck.com/events/harvest-festival-taken-over-2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Harvest Festival: Taken Over
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -219,6 +215,23 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[E] World Space Week 2026
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261011
+DTSTAMP:20260927T043912Z
+UID:world-space-week-2026
+DESCRIPTION:Beginnt um 00:00\, endet um 23:59.\n\nhttps://leekduck.com/eve
+ nts/world-space-week-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/
+ 2026/2026-10-04-world-space-week-2026/world-space-week-2026.jpg
+URL:https://leekduck.com/events/world-space-week-2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] World Space Week 2026
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[RH] Raid-Stunde: Dialga
 DTSTART:20261014T180000
 DTEND:20261014T190000
@@ -248,6 +261,41 @@ URL:https://leekduck.com/events/pokemonspotlighthour2026-10-15/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[PSH] Rampenlichtstunde: Velursi
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[E] Schlüpf-Tag: Ganovil
+DTSTART:20261017T110000
+DTEND:20261017T170000
+DTSTAMP:20260927T043912Z
+UID:sandile-hatch-day-2026
+DESCRIPTION:Beginnt um 11:00\, endet um 17:00.\n\nhttps://leekduck.com/eve
+ nts/sandile-hatch-day-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/
+ 2026/2026-10-17-sandile-hatch-day-2026/sandile-hatch-day-2026.jpg
+URL:https://leekduck.com/events/sandile-hatch-day-2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Schlüpf-Tag: Ganovil
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[E] Fall Marathon: Buddy Trek
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261020
+DTSTAMP:20260927T043912Z
+UID:fall-marathon-buddy-trek-2026
+DESCRIPTION:Beginnt um 10:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
+ nts/fall-marathon-buddy-trek-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/
+ 2026/2026-10-13-fall-marathon-buddy-trek-2026/fall-marathon-buddy-trek-202
+ 6.jpg
+URL:https://leekduck.com/events/fall-marathon-buddy-trek-2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Fall Marathon: Buddy Trek
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -352,36 +400,36 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[WA] Pokémon GO Naturzone 2026: Sendai • Tohoku
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261109
+SUMMARY:[E] Halloween 2026 Part I
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261101
 DTSTAMP:20260927T043912Z
-UID:pokemon-go-wild-area-2026-sendai-japan
-DESCRIPTION:Beginnt um 01:00\, endet um 09:00.\n\nhttps://leekduck.com/eve
- nts/pokemon-go-wild-area-2026-sendai-japan/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/
- 2026/2026-11-06-pokemon-go-wild-area-2026-sendai-japan/key-art.jpg
-URL:https://leekduck.com/events/pokemon-go-wild-area-2026-sendai-japan/
+UID:halloween-2026-part-1
+DESCRIPTION:Beginnt um 10:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
+ nts/halloween-2026-part-1/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-
+ img.jpg
+URL:https://leekduck.com/events/halloween-2026-part-1/
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[WA] Pokémon GO Naturzone 2026: Sendai • Tohoku
+DESCRIPTION:[E] Halloween 2026 Part I
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[WA] Pokémon GO Naturzone 2026: Mexico City
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261110
+SUMMARY:[E] Halloween 2026 Part II
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261106
 DTSTAMP:20260927T043912Z
-UID:pokemon-go-wild-area-2026-mexico-city
-DESCRIPTION:Beginnt um 16:00\, endet um 00:00.\n\nhttps://leekduck.com/eve
- nts/pokemon-go-wild-area-2026-mexico-city/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/
- 2026/2026-11-06-pokemon-go-wild-area-2026-mexico-city/key-art.jpg
-URL:https://leekduck.com/events/pokemon-go-wild-area-2026-mexico-city/
+UID:halloween-2026-part-2
+DESCRIPTION:Beginnt um 10:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
+ nts/halloween-2026-part-2/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-
+ img.jpg
+URL:https://leekduck.com/events/halloween-2026-part-2/
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[WA] Pokémon GO Naturzone 2026: Mexico City
+DESCRIPTION:[E] Halloween 2026 Part II
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -432,23 +480,6 @@ URL:https://leekduck.com/events/super-mega-raid-day-november-2026/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[RD] Raid-Tag: Super Mega
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[R] adidas × Pokémon Timed Research
-DTSTART;VALUE=DATE:20260925
-DTEND;VALUE=DATE:20270116
-DTSTAMP:20260927T043912Z
-UID:pokemon-x-adidas-2026
-DESCRIPTION:Beginnt um 10:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
- nts/pokemon-x-adidas-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokemon-x-adida
- s-2026.jpg
-URL:https://leekduck.com/events/pokemon-x-adidas-2026/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[R] adidas × Pokémon Timed Research
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
