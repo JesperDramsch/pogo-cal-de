@@ -10,27 +10,10 @@ X-WR-CALNAME:GO Kalender (DE)
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:PT1440M
 BEGIN:VEVENT
-SUMMARY:[PSH] Rampenlichtstunde: Samurzel
-DTSTART:20261001T180000
-DTEND:20261001T190000
-DTSTAMP:20261002T045716Z
-UID:pokemonspotlighthour2026-10-01
-DESCRIPTION:Beginnt um 18:00\, endet um 19:00.\n\nhttps://leekduck.com/eve
- nts/pokemonspotlighthour2026-10-01/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokemonspotligh
- thour.jpg
-URL:https://leekduck.com/events/pokemonspotlighthour2026-10-01/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[PSH] Rampenlichtstunde: Samurzel
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[E] Patterns of the Wild
 DTSTART:20261002T100000
 DTEND:20261002T200000
-DTSTAMP:20261002T045716Z
+DTSTAMP:20261003T044043Z
 UID:patterns-of-the-wild-2026
 DESCRIPTION:Beginnt um 10:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
  nts/patterns-of-the-wild-2026/
@@ -47,7 +30,7 @@ BEGIN:VEVENT
 SUMMARY:[MB] Max-Kampf-Tag: Gigadynamax-Liberlo
 DTSTART:20261003T140000
 DTEND:20261003T170000
-DTSTAMP:20261002T045716Z
+DTSTAMP:20261003T044043Z
 UID:gigantamax-cinderace-max-battle-day-2026
 DESCRIPTION:Beginnt um 14:00\, endet um 17:00.\n\nhttps://leekduck.com/eve
  nts/gigantamax-cinderace-max-battle-day-2026/
@@ -65,7 +48,7 @@ BEGIN:VEVENT
 SUMMARY:[E] Harvest Festival 2026: Knapfel Picking
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20261006
-DTSTAMP:20261002T045716Z
+DTSTAMP:20261003T044043Z
 UID:harvest-festival-2026
 DESCRIPTION:Beginnt um 10:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
  nts/harvest-festival-2026/
@@ -82,7 +65,7 @@ BEGIN:VEVENT
 SUMMARY:[E] Harvest Festival: Taken Over
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261006
-DTSTAMP:20261002T045716Z
+DTSTAMP:20261003T044043Z
 UID:harvest-festival-taken-over-2026
 DESCRIPTION:Beginnt um 00:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
  nts/harvest-festival-taken-over-2026/
@@ -100,7 +83,7 @@ BEGIN:VEVENT
 SUMMARY:[RH] Raid-Stunde: Yveltal
 DTSTART:20261007T180000
 DTEND:20261007T190000
-DTSTAMP:20261002T045716Z
+DTSTAMP:20261003T044043Z
 UID:raidhour20261007
 DESCRIPTION:Beginnt um 18:00\, endet um 19:00.\n\nhttps://leekduck.com/eve
  nts/raidhour20261007/
@@ -116,7 +99,7 @@ BEGIN:VEVENT
 SUMMARY:[PSH] Rampenlichtstunde: Pygraulon
 DTSTART:20261008T180000
 DTEND:20261008T190000
-DTSTAMP:20261002T045716Z
+DTSTAMP:20261003T044043Z
 UID:pokemonspotlighthour2026-10-08
 DESCRIPTION:Beginnt um 18:00\, endet um 19:00.\n\nhttps://leekduck.com/eve
  nts/pokemonspotlighthour2026-10-08/
@@ -133,7 +116,7 @@ BEGIN:VEVENT
 SUMMARY:[CD] Community Day: Zorua
 DTSTART:20261010T140000
 DTEND:20261010T170000
-DTSTAMP:20261002T045716Z
+DTSTAMP:20261003T044043Z
 UID:october-communityday2026
 DESCRIPTION:Beginnt um 14:00\, endet um 17:00.\n\nhttps://leekduck.com/eve
  nts/october-communityday2026/
@@ -150,7 +133,7 @@ BEGIN:VEVENT
 SUMMARY:[E] World Space Week 2026
 DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261011
-DTSTAMP:20261002T045716Z
+DTSTAMP:20261003T044043Z
 UID:world-space-week-2026
 DESCRIPTION:Beginnt um 00:00\, endet um 23:59.\n\nhttps://leekduck.com/eve
  nts/world-space-week-2026/
@@ -167,7 +150,7 @@ BEGIN:VEVENT
 SUMMARY:[RH] Raid-Stunde: Dialga
 DTSTART:20261014T180000
 DTEND:20261014T190000
-DTSTAMP:20261002T045716Z
+DTSTAMP:20261003T044043Z
 UID:raidhour20261014
 DESCRIPTION:Beginnt um 18:00\, endet um 19:00.\n\nhttps://leekduck.com/eve
  nts/raidhour20261014/
@@ -183,7 +166,7 @@ BEGIN:VEVENT
 SUMMARY:[PSH] Rampenlichtstunde: Velursi
 DTSTART:20261015T180000
 DTEND:20261015T190000
-DTSTAMP:20261002T045716Z
+DTSTAMP:20261003T044043Z
 UID:pokemonspotlighthour2026-10-15
 DESCRIPTION:Beginnt um 18:00\, endet um 19:00.\n\nhttps://leekduck.com/eve
  nts/pokemonspotlighthour2026-10-15/
@@ -200,7 +183,7 @@ BEGIN:VEVENT
 SUMMARY:[E] Schlüpf-Tag: Ganovil
 DTSTART:20261017T110000
 DTEND:20261017T170000
-DTSTAMP:20261002T045716Z
+DTSTAMP:20261003T044043Z
 UID:sandile-hatch-day-2026
 DESCRIPTION:Beginnt um 11:00\, endet um 17:00.\n\nhttps://leekduck.com/eve
  nts/sandile-hatch-day-2026/
@@ -217,7 +200,7 @@ BEGIN:VEVENT
 SUMMARY:[E] Fall Marathon: Buddy Trek
 DTSTART;VALUE=DATE:20261013
 DTEND;VALUE=DATE:20261020
-DTSTAMP:20261002T045716Z
+DTSTAMP:20261003T044043Z
 UID:fall-marathon-buddy-trek-2026
 DESCRIPTION:Beginnt um 10:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
  nts/fall-marathon-buddy-trek-2026/
@@ -235,7 +218,7 @@ BEGIN:VEVENT
 SUMMARY:[RH] Raid-Stunde: Palkia
 DTSTART:20261021T180000
 DTEND:20261021T190000
-DTSTAMP:20261002T045716Z
+DTSTAMP:20261003T044043Z
 UID:raidhour20261021
 DESCRIPTION:Beginnt um 18:00\, endet um 19:00.\n\nhttps://leekduck.com/eve
  nts/raidhour20261021/
@@ -251,7 +234,7 @@ BEGIN:VEVENT
 SUMMARY:[PSH] Rampenlichtstunde: Bubungus
 DTSTART:20261022T180000
 DTEND:20261022T190000
-DTSTAMP:20261002T045716Z
+DTSTAMP:20261003T044043Z
 UID:pokemonspotlighthour2026-10-22
 DESCRIPTION:Beginnt um 18:00\, endet um 19:00.\n\nhttps://leekduck.com/eve
  nts/pokemonspotlighthour2026-10-22/
@@ -265,19 +248,38 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[MB] Max-Kampf-Tag: Dynamax
+SUMMARY:[MB] Max-Kampf-Tag: Dynamax Selfe\, Vesprit\, and Tobutz
 DTSTART:20261024T140000
 DTEND:20261024T170000
-DTSTAMP:20261002T045716Z
-UID:max-battle-day-october-24-2026
+DTSTAMP:20261003T044043Z
+UID:dynamax-uxie-mesprit-azelf-max-battle-day-2026
 DESCRIPTION:Beginnt um 14:00\, endet um 17:00.\n\nhttps://leekduck.com/eve
- nts/max-battle-day-october-24-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-
- img.jpg
-URL:https://leekduck.com/events/max-battle-day-october-24-2026/
+ nts/dynamax-uxie-mesprit-azelf-max-battle-day-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/
+ 2026/2026-10-24-dynamax-uxie-mesprit-azelf-max-battle-day-2026/dynamax-uxi
+ e-mesprit-azelf-max-battle-day.jpg
+URL:https://leekduck.com/events/dynamax-uxie-mesprit-azelf-max-battle-day-
+ 2026/
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[MB] Max-Kampf-Tag: Dynamax
+DESCRIPTION:[MB] Max-Kampf-Tag: Dynamax Selfe\, Vesprit\, and Tobutz
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[TD] Twitch Drops for Pokémon Night Out 2026
+DTSTART:20261025T023000
+DTEND:20261025T065900
+DTSTAMP:20261003T044043Z
+UID:pokemon-night-out-2026-twitch-drops
+DESCRIPTION:Beginnt um 02:30\, endet um 06:59.\n\nhttps://leekduck.com/eve
+ nts/pokemon-night-out-2026-twitch-drops/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/
+ 2026/2026-10-24-pokemon-night-out-2026-twitch-drops/pokemon-night-out.jpg
+URL:https://leekduck.com/events/pokemon-night-out-2026-twitch-drops/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[TD] Twitch Drops for Pokémon Night Out 2026
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -285,7 +287,7 @@ BEGIN:VEVENT
 SUMMARY:[E] Meteno Showers: Orionids 2026
 DTSTART;VALUE=DATE:20261019
 DTEND;VALUE=DATE:20261025
-DTSTAMP:20261002T045716Z
+DTSTAMP:20261003T044043Z
 UID:minior-showers-orionids-2026
 DESCRIPTION:Beginnt um 17:00\, endet um 23:59.\n\nhttps://leekduck.com/eve
  nts/minior-showers-orionids-2026/
@@ -302,7 +304,7 @@ BEGIN:VEVENT
 SUMMARY:[RH] Raid-Stunde: Giratina (Origin Forme)
 DTSTART:20261028T180000
 DTEND:20261028T190000
-DTSTAMP:20261002T045716Z
+DTSTAMP:20261003T044043Z
 UID:raidhour20261028
 DESCRIPTION:Beginnt um 18:00\, endet um 19:00.\n\nhttps://leekduck.com/eve
  nts/raidhour20261028/
@@ -318,7 +320,7 @@ BEGIN:VEVENT
 SUMMARY:[PSH] Rampenlichtstunde: Nebulak
 DTSTART:20261029T180000
 DTEND:20261029T190000
-DTSTAMP:20261002T045716Z
+DTSTAMP:20261003T044043Z
 UID:pokemonspotlighthour2026-10-29
 DESCRIPTION:Beginnt um 18:00\, endet um 19:00.\n\nhttps://leekduck.com/eve
  nts/pokemonspotlighthour2026-10-29/
@@ -335,7 +337,7 @@ BEGIN:VEVENT
 SUMMARY:[RD] Raid-Tag: Super Mega
 DTSTART:20261031T140000
 DTEND:20261031T170000
-DTSTAMP:20261002T045716Z
+DTSTAMP:20261003T044043Z
 UID:super-mega-raid-day-october-2026
 DESCRIPTION:Beginnt um 14:00\, endet um 17:00.\n\nhttps://leekduck.com/eve
  nts/super-mega-raid-day-october-2026/
@@ -352,7 +354,7 @@ BEGIN:VEVENT
 SUMMARY:[E] Halloween 2026 Part I
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261101
-DTSTAMP:20261002T045716Z
+DTSTAMP:20261003T044043Z
 UID:halloween-2026-part-1
 DESCRIPTION:Beginnt um 10:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
  nts/halloween-2026-part-1/
@@ -369,7 +371,7 @@ BEGIN:VEVENT
 SUMMARY:[E] Halloween 2026 Part II
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261106
-DTSTAMP:20261002T045716Z
+DTSTAMP:20261003T044043Z
 UID:halloween-2026-part-2
 DESCRIPTION:Beginnt um 10:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
  nts/halloween-2026-part-2/
@@ -386,7 +388,7 @@ BEGIN:VEVENT
 SUMMARY:[WA] Pokémon GO Naturzone 2026: Global
 DTSTART:20261114T100000
 DTEND:20261115T180000
-DTSTAMP:20261002T045716Z
+DTSTAMP:20261003T044043Z
 UID:pokemon-go-wild-area-2026-global
 DESCRIPTION:Beginnt um 10:00\, endet um 18:00.\n\nhttps://leekduck.com/eve
  nts/pokemon-go-wild-area-2026-global/
@@ -403,7 +405,7 @@ BEGIN:VEVENT
 SUMMARY:[E] Meteno Showers: Leonids 2026
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261120
-DTSTAMP:20261002T045716Z
+DTSTAMP:20261003T044043Z
 UID:minior-showers-leonids-2026
 DESCRIPTION:Beginnt um 17:00\, endet um 23:59.\n\nhttps://leekduck.com/eve
  nts/minior-showers-leonids-2026/
@@ -420,7 +422,7 @@ BEGIN:VEVENT
 SUMMARY:[CD] Community Day: November
 DTSTART:20261121T140000
 DTEND:20261121T170000
-DTSTAMP:20261002T045716Z
+DTSTAMP:20261003T044043Z
 UID:november-communityday2026
 DESCRIPTION:Beginnt um 14:00\, endet um 17:00.\n\nhttps://leekduck.com/eve
  nts/november-communityday2026/
@@ -436,7 +438,7 @@ BEGIN:VEVENT
 SUMMARY:[RD] Raid-Tag: Super Mega
 DTSTART:20261128T140000
 DTEND:20261128T170000
-DTSTAMP:20261002T045716Z
+DTSTAMP:20261003T044043Z
 UID:super-mega-raid-day-november-2026
 DESCRIPTION:Beginnt um 14:00\, endet um 17:00.\n\nhttps://leekduck.com/eve
  nts/super-mega-raid-day-november-2026/
@@ -453,7 +455,7 @@ BEGIN:VEVENT
 SUMMARY:[E] Meteno Showers: Geminids 2026
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261217
-DTSTAMP:20261002T045716Z
+DTSTAMP:20261003T044043Z
 UID:minior-showers-geminids-2026
 DESCRIPTION:Beginnt um 17:00\, endet um 23:59.\n\nhttps://leekduck.com/eve
  nts/minior-showers-geminids-2026/
@@ -470,7 +472,7 @@ BEGIN:VEVENT
 SUMMARY:[PGT] Pokémon GO Tour: Alola - Global 2027
 DTSTART:20270227T000000
 DTEND:20270228T235959
-DTSTAMP:20261002T045716Z
+DTSTAMP:20261003T044043Z
 UID:pokemon-go-tour-alola-global-2027
 DESCRIPTION:Beginnt um 00:00\, endet um 23:59.\n\nhttps://leekduck.com/eve
  nts/pokemon-go-tour-alola-global-2027/
@@ -487,7 +489,7 @@ BEGIN:VEVENT
 SUMMARY:[E] Meteno Showers: Eta Aquariids 2027
 DTSTART;VALUE=DATE:20270503
 DTEND;VALUE=DATE:20270509
-DTSTAMP:20261002T045716Z
+DTSTAMP:20261003T044043Z
 UID:minior-showers-eta-aquariids-2027
 DESCRIPTION:Beginnt um 17:00\, endet um 23:59.\n\nhttps://leekduck.com/eve
  nts/minior-showers-eta-aquariids-2027/
@@ -504,7 +506,7 @@ BEGIN:VEVENT
 SUMMARY:[E] Meteno Showers: Southern Delta Aquariids 2027
 DTSTART;VALUE=DATE:20270728
 DTEND;VALUE=DATE:20270803
-DTSTAMP:20261002T045716Z
+DTSTAMP:20261003T044043Z
 UID:minior-showers-southern-delta-aquariids-2027
 DESCRIPTION:Beginnt um 17:00\, endet um 23:59.\n\nhttps://leekduck.com/eve
  nts/minior-showers-southern-delta-aquariids-2027/
@@ -522,7 +524,7 @@ BEGIN:VEVENT
 SUMMARY:[E] Meteno Showers: Perseids 2027
 DTSTART;VALUE=DATE:20270810
 DTEND;VALUE=DATE:20270816
-DTSTAMP:20261002T045716Z
+DTSTAMP:20261003T044043Z
 UID:minior-showers-perseids-2027
 DESCRIPTION:Beginnt um 17:00\, endet um 23:59.\n\nhttps://leekduck.com/eve
  nts/minior-showers-perseids-2027/
