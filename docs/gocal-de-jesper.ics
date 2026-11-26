@@ -10,28 +10,11 @@ X-WR-CALNAME:GO Kalender (DE)
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:PT1440M
 BEGIN:VEVENT
-SUMMARY:[E] Dynamax Trails
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261124
-DTSTAMP:20261124T091409Z
-UID:dynamax-trails-2026
-DESCRIPTION:Beginnt um 10:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
- nts/dynamax-trails-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/
- 2026/2026-11-16-dynamax-trails-2026/dynamax-trails-2026.jpg
-URL:https://leekduck.com/events/dynamax-trails-2026/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[E] Dynamax Trails
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[RH] Raid-Stunde: Deoxys (Normal\, Defense\, Attack\, and Speed Fo
  rmes)
 DTSTART:20261125T180000
 DTEND:20261125T190000
-DTSTAMP:20261124T091409Z
+DTSTAMP:20261126T074026Z
 UID:raidhour20261125
 DESCRIPTION:Beginnt um 18:00\, endet um 19:00.\n\nhttps://leekduck.com/eve
  nts/raidhour20261125/
@@ -48,7 +31,7 @@ BEGIN:VEVENT
 SUMMARY:[PSH] Rampenlichtstunde: eF-eM
 DTSTART:20261126T180000
 DTEND:20261126T190000
-DTSTAMP:20261124T091409Z
+DTSTAMP:20261126T074026Z
 UID:pokemonspotlighthour2026-11-26
 DESCRIPTION:Beginnt um 18:00\, endet um 19:00.\n\nhttps://leekduck.com/eve
  nts/pokemonspotlighthour2026-11-26/
@@ -65,7 +48,7 @@ BEGIN:VEVENT
 SUMMARY:[RD] Raid-Tag: Pixi Super Mega
 DTSTART:20261128T140000
 DTEND:20261128T170000
-DTSTAMP:20261124T091409Z
+DTSTAMP:20261126T074026Z
 UID:clefable-super-mega-raid-day-2026
 DESCRIPTION:Beginnt um 14:00\, endet um 17:00.\n\nhttps://leekduck.com/eve
  nts/clefable-super-mega-raid-day-2026/
@@ -82,7 +65,7 @@ BEGIN:VEVENT
 SUMMARY:[E] Twilight Wishes
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261201
-DTSTAMP:20261124T091409Z
+DTSTAMP:20261126T074026Z
 UID:twilight-wishes-2026
 DESCRIPTION:Beginnt um 10:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
  nts/twilight-wishes-2026/
@@ -96,19 +79,103 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[MB] Max Battle Day
-DTSTART:20261205T140000
-DTEND:20261205T170000
-DTSTAMP:20261124T091409Z
-UID:max-battle-day-december-2026
-DESCRIPTION:Beginnt um 14:00\, endet um 17:00.\n\nhttps://leekduck.com/eve
- nts/max-battle-day-december-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-
- img.jpg
-URL:https://leekduck.com/events/max-battle-day-december-2026/
+SUMMARY:[RH] Raid-Stunde: Regidrago
+DTSTART:20261202T180000
+DTEND:20261202T190000
+DTSTAMP:20261126T074026Z
+UID:raidhour20261202
+DESCRIPTION:Beginnt um 18:00\, endet um 19:00.\n\nhttps://leekduck.com/eve
+ nts/raidhour20261202/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/raidhour.jpg
+URL:https://leekduck.com/events/raidhour20261202/
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[MB] Max Battle Day
+DESCRIPTION:[RH] Raid-Stunde: Regidrago
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PSH] Rampenlichtstunde: Reißlaus
+DTSTART:20261203T180000
+DTEND:20261203T190000
+DTSTAMP:20261126T074026Z
+UID:pokemonspotlighthour2026-12-03
+DESCRIPTION:Beginnt um 18:00\, endet um 19:00.\n\nhttps://leekduck.com/eve
+ nts/pokemonspotlighthour2026-12-03/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokemonspotligh
+ thour.jpg
+URL:https://leekduck.com/events/pokemonspotlighthour2026-12-03/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[PSH] Rampenlichtstunde: Reißlaus
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[MB] Max-Kampf-Tag: Gigadynamax-Intelleon
+DTSTART:20261205T140000
+DTEND:20261205T170000
+DTSTAMP:20261126T074026Z
+UID:gigantamax-inteleon-max-battle-day-2026
+DESCRIPTION:Beginnt um 14:00\, endet um 17:00.\n\nhttps://leekduck.com/eve
+ nts/gigantamax-inteleon-max-battle-day-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/
+ 2026/2026-12-05-gigantamax-inteleon-max-battle-day-2026/gigantamax-inteleo
+ n-max-battle-day.jpg
+URL:https://leekduck.com/events/gigantamax-inteleon-max-battle-day-2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[MB] Max-Kampf-Tag: Gigadynamax-Intelleon
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[E] Tropical Paradise
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261208
+DTSTAMP:20261126T074026Z
+UID:tropical-paradise-2026
+DESCRIPTION:Beginnt um 10:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
+ nts/tropical-paradise-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/tropical-paradi
+ se-2026.jpg
+URL:https://leekduck.com/events/tropical-paradise-2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Tropical Paradise
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RH] Raid-Stunde: Unannounced
+DTSTART:20261209T180000
+DTEND:20261209T190000
+DTSTAMP:20261126T074026Z
+UID:raidhour20261209
+DESCRIPTION:Beginnt um 18:00\, endet um 19:00.\n\nhttps://leekduck.com/eve
+ nts/raidhour20261209/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/raidhour.jpg
+URL:https://leekduck.com/events/raidhour20261209/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RH] Raid-Stunde: Unannounced
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PSH] Rampenlichtstunde: Staralili
+DTSTART:20261210T180000
+DTEND:20261210T190000
+DTSTAMP:20261126T074026Z
+UID:pokemonspotlighthour2026-12-10
+DESCRIPTION:Beginnt um 18:00\, endet um 19:00.\n\nhttps://leekduck.com/eve
+ nts/pokemonspotlighthour2026-12-10/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokemonspotligh
+ thour.jpg
+URL:https://leekduck.com/events/pokemonspotlighthour2026-12-10/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[PSH] Rampenlichtstunde: Staralili
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -116,7 +183,7 @@ BEGIN:VEVENT
 SUMMARY:[CD] Dezember Community Day 2026
 DTSTART:20261212T140000
 DTEND:20261213T170000
-DTSTAMP:20261124T091409Z
+DTSTAMP:20261126T074026Z
 UID:december-communityday2026
 DESCRIPTION:Beginnt um 14:00\, endet um 17:00.\n\nhttps://leekduck.com/eve
  nts/december-communityday2026/
@@ -130,10 +197,44 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[E] Pokémon Champions Celebration Event 2026
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261215
+DTSTAMP:20261126T074026Z
+UID:pokemon-champions-celebration-event-2026
+DESCRIPTION:Beginnt um 10:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
+ nts/pokemon-champions-celebration-event-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/
+ 2026/2026-12-08-pokemon-champions-celebration-event-2026/pokemon-champions
+ -celebration-event-2026.jpg
+URL:https://leekduck.com/events/pokemon-champions-celebration-event-2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Pokémon Champions Celebration Event 2026
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RH] Raid-Stunde: Ho-Oh
+DTSTART:20261216T180000
+DTEND:20261216T190000
+DTSTAMP:20261126T074026Z
+UID:raidhour20261216
+DESCRIPTION:Beginnt um 18:00\, endet um 19:00.\n\nhttps://leekduck.com/eve
+ nts/raidhour20261216/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/raidhour.jpg
+URL:https://leekduck.com/events/raidhour20261216/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RH] Raid-Stunde: Ho-Oh
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[E] Meteno Showers: Geminids 2026
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261217
-DTSTAMP:20261124T091409Z
+DTSTAMP:20261126T074026Z
 UID:minior-showers-geminids-2026
 DESCRIPTION:Beginnt um 17:00\, endet um 23:59.\n\nhttps://leekduck.com/eve
  nts/minior-showers-geminids-2026/
@@ -147,10 +248,27 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[PSH] Rampenlichtstunde: Arktip
+DTSTART:20261217T180000
+DTEND:20261217T190000
+DTSTAMP:20261126T074026Z
+UID:pokemonspotlighthour2026-12-17
+DESCRIPTION:Beginnt um 18:00\, endet um 19:00.\n\nhttps://leekduck.com/eve
+ nts/pokemonspotlighthour2026-12-17/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokemonspotligh
+ thour.jpg
+URL:https://leekduck.com/events/pokemonspotlighthour2026-12-17/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[PSH] Rampenlichtstunde: Arktip
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[RD] Raid Day
 DTSTART:20261219T140000
 DTEND:20261219T170000
-DTSTAMP:20261124T091409Z
+DTSTAMP:20261126T074026Z
 UID:raid-day-december-2026
 DESCRIPTION:Beginnt um 14:00\, endet um 17:00.\n\nhttps://leekduck.com/eve
  nts/raid-day-december-2026/
@@ -164,10 +282,63 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[CYP] Wähle deinen Weg: Daydream Destinations (Dezember 15\, 2026
+ )
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261222
+DTSTAMP:20261126T074026Z
+UID:choose-your-path-daydream-destinations-2026-12-15
+DESCRIPTION:Beginnt um 10:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
+ nts/choose-your-path-daydream-destinations-2026-12-15/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/choose-your-pat
+ h-daydream-destinations-2026.jpg
+URL:https://leekduck.com/events/choose-your-path-daydream-destinations-202
+ 6-12-15/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[CYP] Wähle deinen Weg: Daydream Destinations (Dezember 15\, 
+ 2026)
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RH] Raid-Stunde: Lugia
+DTSTART:20261223T180000
+DTEND:20261223T190000
+DTSTAMP:20261126T074026Z
+UID:raidhour20261223
+DESCRIPTION:Beginnt um 18:00\, endet um 19:00.\n\nhttps://leekduck.com/eve
+ nts/raidhour20261223/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/raidhour.jpg
+URL:https://leekduck.com/events/raidhour20261223/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RH] Raid-Stunde: Lugia
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PSH] Rampenlichtstunde: Botogel
+DTSTART:20261224T180000
+DTEND:20261224T190000
+DTSTAMP:20261126T074026Z
+UID:pokemonspotlighthour2026-12-24
+DESCRIPTION:Beginnt um 18:00\, endet um 19:00.\n\nhttps://leekduck.com/eve
+ nts/pokemonspotlighthour2026-12-24/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokemonspotligh
+ thour.jpg
+URL:https://leekduck.com/events/pokemonspotlighthour2026-12-24/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[PSH] Rampenlichtstunde: Botogel
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[E] Hatch Day
 DTSTART:20261226T110000
 DTEND:20261226T170000
-DTSTAMP:20261124T091409Z
+DTSTAMP:20261126T074026Z
 UID:hatch-day-december-2026
 DESCRIPTION:Beginnt um 11:00\, endet um 17:00.\n\nhttps://leekduck.com/eve
  nts/hatch-day-december-2026/
@@ -181,10 +352,62 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[E] Winter Holiday 2026
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261229
+DTSTAMP:20261126T074026Z
+UID:winter-holiday-2026
+DESCRIPTION:Beginnt um 10:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
+ nts/winter-holiday-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-
+ img.jpg
+URL:https://leekduck.com/events/winter-holiday-2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Winter Holiday 2026
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RH] Raid-Stunde: Boreos (Therian Forme)\, Voltolos (Therian Forme
+ )\, and Demeteros (Therian Forme)
+DTSTART:20261230T180000
+DTEND:20261230T190000
+DTSTAMP:20261126T074026Z
+UID:raidhour20261230
+DESCRIPTION:Beginnt um 18:00\, endet um 19:00.\n\nhttps://leekduck.com/eve
+ nts/raidhour20261230/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/raidhour.jpg
+URL:https://leekduck.com/events/raidhour20261230/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RH] Raid-Stunde: Boreos (Therian Forme)\, Voltolos (Therian F
+ orme)\, and Demeteros (Therian Forme)
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PSH] Rampenlichtstunde: Plusle and Minun
+DTSTART:20261231T180000
+DTEND:20261231T190000
+DTSTAMP:20261126T074026Z
+UID:pokemonspotlighthour2026-12-31
+DESCRIPTION:Beginnt um 18:00\, endet um 19:00.\n\nhttps://leekduck.com/eve
+ nts/pokemonspotlighthour2026-12-31/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokemonspotligh
+ thour.jpg
+URL:https://leekduck.com/events/pokemonspotlighthour2026-12-31/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[PSH] Rampenlichtstunde: Plusle and Minun
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[CD] Community Day Classic: Januar
 DTSTART:20270102T140000
 DTEND:20270102T170000
-DTSTAMP:20261124T091409Z
+DTSTAMP:20261126T074026Z
 UID:january-communitydayclassic2027
 DESCRIPTION:Beginnt um 14:00\, endet um 17:00.\n\nhttps://leekduck.com/eve
  nts/january-communitydayclassic2027/
@@ -197,10 +420,27 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[E] New Year's 2027
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20270105
+DTSTAMP:20261126T074026Z
+UID:new-years-2027
+DESCRIPTION:Beginnt um 10:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
+ nts/new-years-2027/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-
+ img.jpg
+URL:https://leekduck.com/events/new-years-2027/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] New Year's 2027
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[RD] Raid-Tag: Super Mega
 DTSTART:20270109T140000
 DTEND:20270109T170000
-DTSTAMP:20261124T091409Z
+DTSTAMP:20261126T074026Z
 UID:super-mega-raid-day-january-2027
 DESCRIPTION:Beginnt um 14:00\, endet um 17:00.\n\nhttps://leekduck.com/eve
  nts/super-mega-raid-day-january-2027/
@@ -217,7 +457,7 @@ BEGIN:VEVENT
 SUMMARY:[CD] Community Day: Januar
 DTSTART:20270116T140000
 DTEND:20270116T170000
-DTSTAMP:20261124T091409Z
+DTSTAMP:20261126T074026Z
 UID:january-communityday2027
 DESCRIPTION:Beginnt um 14:00\, endet um 17:00.\n\nhttps://leekduck.com/eve
  nts/january-communityday2027/
@@ -230,10 +470,29 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[CYP] Wähle deinen Weg: Daydream Destinations (Januar 12\, 2027)
+DTSTART;VALUE=DATE:20270112
+DTEND;VALUE=DATE:20270119
+DTSTAMP:20261126T074026Z
+UID:choose-your-path-daydream-destinations-2027-01-12
+DESCRIPTION:Beginnt um 10:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
+ nts/choose-your-path-daydream-destinations-2027-01-12/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/choose-your-pat
+ h-daydream-destinations-2026.jpg
+URL:https://leekduck.com/events/choose-your-path-daydream-destinations-202
+ 7-01-12/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[CYP] Wähle deinen Weg: Daydream Destinations (Januar 12\, 20
+ 27)
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[MB] Max Battle Day
 DTSTART:20270123T140000
 DTEND:20270123T170000
-DTSTAMP:20261124T091409Z
+DTSTAMP:20261126T074026Z
 UID:max-battle-day-january-2027
 DESCRIPTION:Beginnt um 14:00\, endet um 17:00.\n\nhttps://leekduck.com/eve
  nts/max-battle-day-january-2027/
@@ -250,7 +509,7 @@ BEGIN:VEVENT
 SUMMARY:[RD] Raid-Tag: Super Mega
 DTSTART:20270130T140000
 DTEND:20270130T170000
-DTSTAMP:20261124T091409Z
+DTSTAMP:20261126T074026Z
 UID:super-mega-raid-day-january-30-2027
 DESCRIPTION:Beginnt um 14:00\, endet um 17:00.\n\nhttps://leekduck.com/eve
  nts/super-mega-raid-day-january-30-2027/
@@ -264,10 +523,29 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[CYP] Wähle deinen Weg: Daydream Destinations (Januar 26\, 2027)
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270202
+DTSTAMP:20261126T074026Z
+UID:choose-your-path-daydream-destinations-2027-01-26
+DESCRIPTION:Beginnt um 10:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
+ nts/choose-your-path-daydream-destinations-2027-01-26/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/choose-your-pat
+ h-daydream-destinations-2026.jpg
+URL:https://leekduck.com/events/choose-your-path-daydream-destinations-202
+ 7-01-26/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[CYP] Wähle deinen Weg: Daydream Destinations (Januar 26\, 20
+ 27)
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[CD] Community Day: Februar
 DTSTART:20270206T140000
 DTEND:20270206T170000
-DTSTAMP:20261124T091409Z
+DTSTAMP:20261126T074026Z
 UID:february-communityday2027
 DESCRIPTION:Beginnt um 14:00\, endet um 17:00.\n\nhttps://leekduck.com/eve
  nts/february-communityday2027/
@@ -283,7 +561,7 @@ BEGIN:VEVENT
 SUMMARY:[RD] Raid Day
 DTSTART:20270213T140000
 DTEND:20270213T170000
-DTSTAMP:20261124T091409Z
+DTSTAMP:20261126T074026Z
 UID:raid-day-february-2027
 DESCRIPTION:Beginnt um 14:00\, endet um 17:00.\n\nhttps://leekduck.com/eve
  nts/raid-day-february-2027/
@@ -297,10 +575,29 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[CYP] Wähle deinen Weg: Daydream Destinations (Februar 16\, 2027)
+DTSTART;VALUE=DATE:20270216
+DTEND;VALUE=DATE:20270222
+DTSTAMP:20261126T074026Z
+UID:choose-your-path-daydream-destinations-2027-02-16
+DESCRIPTION:Beginnt um 10:00\, endet um 20:00.\n\nhttps://leekduck.com/eve
+ nts/choose-your-path-daydream-destinations-2027-02-16/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/choose-your-pat
+ h-daydream-destinations-2026.jpg
+URL:https://leekduck.com/events/choose-your-path-daydream-destinations-202
+ 7-02-16/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[CYP] Wähle deinen Weg: Daydream Destinations (Februar 16\, 2
+ 027)
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[PGT] Pokémon GO Tour: Alola - Global 2027
 DTSTART:20270227T000000
 DTEND:20270228T235959
-DTSTAMP:20261124T091409Z
+DTSTAMP:20261126T074026Z
 UID:pokemon-go-tour-alola-global-2027
 DESCRIPTION:Beginnt um 00:00\, endet um 23:59.\n\nhttps://leekduck.com/eve
  nts/pokemon-go-tour-alola-global-2027/
@@ -317,7 +614,7 @@ BEGIN:VEVENT
 SUMMARY:[E] Meteno Showers: Eta Aquariids 2027
 DTSTART;VALUE=DATE:20270503
 DTEND;VALUE=DATE:20270509
-DTSTAMP:20261124T091409Z
+DTSTAMP:20261126T074026Z
 UID:minior-showers-eta-aquariids-2027
 DESCRIPTION:Beginnt um 17:00\, endet um 23:59.\n\nhttps://leekduck.com/eve
  nts/minior-showers-eta-aquariids-2027/
@@ -334,7 +631,7 @@ BEGIN:VEVENT
 SUMMARY:[E] Meteno Showers: Southern Delta Aquariids 2027
 DTSTART;VALUE=DATE:20270728
 DTEND;VALUE=DATE:20270803
-DTSTAMP:20261124T091409Z
+DTSTAMP:20261126T074026Z
 UID:minior-showers-southern-delta-aquariids-2027
 DESCRIPTION:Beginnt um 17:00\, endet um 23:59.\n\nhttps://leekduck.com/eve
  nts/minior-showers-southern-delta-aquariids-2027/
@@ -352,7 +649,7 @@ BEGIN:VEVENT
 SUMMARY:[E] Meteno Showers: Perseids 2027
 DTSTART;VALUE=DATE:20270810
 DTEND;VALUE=DATE:20270816
-DTSTAMP:20261124T091409Z
+DTSTAMP:20261126T074026Z
 UID:minior-showers-perseids-2027
 DESCRIPTION:Beginnt um 17:00\, endet um 23:59.\n\nhttps://leekduck.com/eve
  nts/minior-showers-perseids-2027/
